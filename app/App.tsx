@@ -6,6 +6,7 @@ import 'react-tabs/style/react-tabs.css';
 import { RecapsTab } from "./RecapsTab";
 import { FlipsTab } from "./FlipsTab";
 import { RacesTab } from "./RacesTab";
+import { TracksTab } from "./TracksTab";
 
 export default function App() {
   return (
@@ -31,7 +32,7 @@ export default function App() {
         </TabList>
 
         <TabPanel><RacesTab/></TabPanel>
-        <TabPanel></TabPanel>
+        <TabPanel><TracksTab/></TabPanel>
         <TabPanel><RecapsTab/></TabPanel>
         <TabPanel><FlipsTab/></TabPanel>
       </Tabs>

@@ -2,7 +2,6 @@
 
 import { LeafletMap } from './Map';
 import { trackDataJson } from './TrackData';
-import { printNameAndDate } from './Utils';
 
 export function RacesTab() {
   return <div>
@@ -18,8 +17,8 @@ function renderStats() {
   
   const statesSet = new Set<string>()
   for (const trackNum in trackDataJson) {
-    const trackInfo = trackDataJson[trackNum]
-    statesSet.add(trackInfo.State)
+    // const trackInfo = trackDataJson[trackNum]
+    // statesSet.add(trackInfo.State)
   }
   //remove provinces
   statesSet.delete("QC")

@@ -1,5 +1,45 @@
 'use client'
 
+export class TrackRecord {
+  public Track: string;
+  public Date: string;
+  public State: string;
+  public City: string;
+  public Type: string;
+  public Surface: string;
+  public Length: string;
+  public Status: string;
+  public Latitude: string;
+  public Longitude: string;
+  public Recap: string;
+  public ParentTrack: string;
+
+  public constructor() {
+    this.Track = "";
+    this.Date = "";
+    this.State = "";
+    this.City = "";
+    this.Type = "";
+    this.Surface = "";
+    this.Length = "";
+    this.Status = "";
+    this.Latitude = "";
+    this.Longitude = "";
+    this.Recap = "";
+    this.ParentTrack = "";
+  }
+}
+
+export class TrackDataObj {
+  public tracks: TrackRecord[]
+
+  constructor() {
+    this.tracks = []
+  }
+}
+
+// export type TrackDataObj = Record<string, TrackRecord>;
+
 //This needs to be updated with each new track added
 //Copied directly from the Track Order sheet using the export to json extension
 //Dates are reformatted via a print function
@@ -3395,4 +3435,4 @@ const trackDataString =
 }
 `
 
-export const trackDataJson = JSON.parse(trackDataString)
+export const trackDataJson: TrackDataObj = Object.assign(TrackDataObj, JSON.parse(trackDataString))

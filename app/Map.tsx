@@ -54,30 +54,30 @@ export class LeafletMap extends React.Component {
 
 function renderMarkers() {
   const markers: any = []
-  const configs = [] //don't know what order we'll have, we'll put these into the markers after
+  const configs: any[] = [] //don't know what order we'll have, we'll put these into the markers after
   for (const trackNum in trackDataJson) {
-    const trackInfo = trackDataJson[trackNum]
+    // const trackInfo = trackDataJson[trackNum]
 
-    if (trackInfo["Parent Track"]) {
-      //This is a configuration
-      //Don't make it's own marker, add it as a configuration later on
-      configs.push({
-        name: trackInfo.Track,
-        parent: trackInfo["Parent Track"],
-        date: trackInfo.Date,
-        recap: trackInfo.Recap,
-      })
-      continue
-    }
+    // if (trackInfo["Parent Track"]) {
+    //   //This is a configuration
+    //   //Don't make it's own marker, add it as a configuration later on
+    //   configs.push({
+    //     name: trackInfo.Track,
+    //     parent: trackInfo["Parent Track"],
+    //     date: trackInfo.Date,
+    //     recap: trackInfo.Recap,
+    //   })
+    //   continue
+    // }
 
-    markers.push({
-      name: trackInfo.Track,
-      date: trackInfo.Date,
-      lat: trackInfo.Latitude,
-      long: trackInfo.Longitude,
-      recap: trackInfo.Recap,
-      configs: []
-    })
+    // markers.push({
+    //   name: trackInfo.Track,
+    //   date: trackInfo.Date,
+    //   lat: trackInfo.Latitude,
+    //   long: trackInfo.Longitude,
+    //   recap: trackInfo.Recap,
+    //   configs: []
+    // })
   }
 
   configs.forEach((config) => {
@@ -93,6 +93,7 @@ function renderMarkers() {
       return <Marker 
         position={[marker.lat, marker.long]}
         icon={new Icon({iconUrl: markerIconPng as any, iconSize: [25, 41], iconAnchor: [12, 41]})}
+        key={`${marker.lat}${marker.long}`}
       >
         <Popup>
           {printNameAndDate(marker.name, marker.date)}
