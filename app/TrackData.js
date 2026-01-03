@@ -1,3 +1,5 @@
+'use client'
+
 //This needs to be updated with each new track added
 //Copied directly from the Track Order sheet using the export to json extension
 //Dates are reformatted via a print function

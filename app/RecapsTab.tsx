@@ -1,3 +1,5 @@
+'use client'
+
 import 'leaflet/dist/leaflet.css';
 import { trackDataJson } from './TrackData';
 import { printNameAndDate } from './Utils';

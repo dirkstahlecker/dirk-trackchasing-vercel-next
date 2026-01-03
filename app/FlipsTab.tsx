@@ -1,3 +1,5 @@
+'use client'
+
 //flip videos are on TrackchaserDirk youtube account
 
 export function FlipsTab() {

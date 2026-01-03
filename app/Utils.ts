@@ -1,3 +1,5 @@
+'use client'
+
 export function printNameAndDate(nameIn: string, dateIn: string) {
   function printDate(input: any) {
     if (input === undefined) {
