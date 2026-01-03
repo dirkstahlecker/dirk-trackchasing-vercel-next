@@ -23,11 +23,13 @@ export default function App() {
       <Tabs>
         <TabList>
           <Tab>Races</Tab>
+          <Tab>Tracks</Tab>
           <Tab>Recaps</Tab>
           <Tab>Flips</Tab>
         </TabList>
 
         <TabPanel><RacesTab/></TabPanel>
+        <TabPanel></TabPanel>
         <TabPanel><RecapsTab/></TabPanel>
         <TabPanel><FlipsTab/></TabPanel>
       </Tabs>
