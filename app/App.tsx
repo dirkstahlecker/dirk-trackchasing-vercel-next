@@ -22,7 +22,7 @@ export default function App() {
       </p>
       <br/>
 
-      {/* <Tabs>
+      <Tabs>
         <TabList>
           <Tab>Races</Tab>
           <Tab>Tracks</Tab>
@@ -34,7 +34,7 @@ export default function App() {
         <TabPanel></TabPanel>
         <TabPanel><RecapsTab/></TabPanel>
         <TabPanel><FlipsTab/></TabPanel>
-      </Tabs> */}
+      </Tabs>
     </div>
   );
 }
