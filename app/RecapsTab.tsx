@@ -1,6 +1,10 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { trackDataJson } from './TrackData';
+import L from 'leaflet';
+import markerIconPng from "leaflet/dist/images/marker-icon.png"
+import {Icon} from 'leaflet'
+
 
 export function RecapsTab() {
   const recapsToPrint = []
@@ -85,11 +89,29 @@ function renderMarkers() {
     }
   })
 
+  var myIcon = L.icon({
+      iconUrl: 'marker_blue.png',
+      iconSize: [50, 82],
+      iconAnchor: [22, 94],
+      popupAnchor: [-3, -76],
+      // shadowUrl: 'my-icon-shadow.png',
+      // shadowSize: [68, 95],
+      // shadowAnchor: [22, 94]
+  });
+
+  let DefaultIcon = new L.Icon({
+    iconUrl: require('./marker_blue.png'), // require the image, the build engine will prohide the final path and name
+    iconSize: [50, 50]
+  })
+
   return markers
     .filter((marker: any) => marker.lat !== undefined && marker.long !== undefined)
     .map((marker: any) => {
       // const recapInfo = recapInfoJson[marker.name]
-      return <Marker position={[marker.lat, marker.long]}>
+      return <Marker 
+        position={[marker.lat, marker.long]}
+        icon={new Icon({iconUrl: markerIconPng as any, iconSize: [25, 41], iconAnchor: [12, 41]})}
+      >
         <Popup>
           {printNameAndDate(marker.name, marker.date)}
           {
