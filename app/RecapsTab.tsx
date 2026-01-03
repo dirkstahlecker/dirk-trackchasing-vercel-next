@@ -1,7 +1,6 @@
 'use client'
 
 import 'leaflet/dist/leaflet.css';
-// import { trackDataJson } from './TrackData';
 import { printNameAndDate } from './Utils';
 import React from 'react';
 import { getTrackDataJson, TrackRecord } from './TrackData';
@@ -32,7 +31,7 @@ export function RecapsTab() {
     <h3>Race Recaps</h3>
     
     {recapsToPrint.map((recapObj) => <React.Fragment key={recapObj.name}>
-      <a href={recapObj.recap}>{printNameAndDate(recapObj.name, recapObj.date)}</a>
+      <a href={recapObj.recap} target="_blank">{printNameAndDate(recapObj.name, recapObj.date)}</a>
       <br/>
     </React.Fragment>)}
   </>

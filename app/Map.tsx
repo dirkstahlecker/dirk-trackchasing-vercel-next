@@ -1,7 +1,6 @@
 import React from "react"
 import { printNameAndDate } from "./Utils"
 import { getTrackDataJson, TrackRecord } from "./TrackData"
-// import { trackDataJson } from "./TrackData"
 
 let MapContainer: any
 let TileLayer: any
@@ -9,11 +8,13 @@ let Popup: any
 let Marker: any
 let Icon: any
 let markerIconPng: any
+let customMarker: any
+let customIcon: any
 
 //This is a workaround for a leaflet issue 
 //https://github.com/PaulLeCam/react-leaflet/issues/45#issuecomment-257712370
 export class LeafletMap extends React.Component {
-  componentDidMount(){
+  componentDidMount() {
     //Only runs on Client, not on server render
     const leaflet = require('react-leaflet')
     MapContainer = leaflet.MapContainer
@@ -22,14 +23,21 @@ export class LeafletMap extends React.Component {
     Marker = leaflet.Marker
     Icon = require('leaflet').Icon
     markerIconPng = require('leaflet/dist/images/marker-icon.png')
+    // customMarker = () => import('../public/marker_blue.png')
+
+    // const customIcon = new leaflet.Icon({
+    //     iconUrl: require('../public/marker_blue.png'),
+    //     // iconRetinaUrl: require('../img/marker-pin-person.svg'),
+    //     iconAnchor: null,
+    //     popupAnchor: null,
+    //     shadowUrl: null,
+    //     shadowSize: null,
+    //     shadowAnchor: null,
+    //     // iconSize: new leaflet.Point(60, 75),
+    //     // className: 'leaflet-div-icon'
+    // });
     
     this.forceUpdate()
-
-
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-// import 'leaflet/dist/leaflet.css';
-// import markerIconPng from "leaflet/dist/images/marker-icon.png"
-// import {Icon} from 'leaflet'
   }
 
   render () {
@@ -58,8 +66,6 @@ function renderMarkers() {
   const configs: any[] = [] //don't know what order we'll have, we'll put these into the markers after
   const trackDataJson = getTrackDataJson()
   trackDataJson.forEach((trackInfo: TrackRecord, trackNum: number) => {
-    // const trackInfo: TrackRecord = trackDataJson.tracks[trackNum]
-
     if (trackInfo.ParentTrack) {
       //This is a configuration
       //Don't make it's own marker, add it as a configuration later on
@@ -68,6 +74,7 @@ function renderMarkers() {
         parent: trackInfo.ParentTrack,
         date: trackInfo.Date,
         recap: trackInfo.Recap,
+        type: trackInfo.Type
       })
     }
     else {
@@ -77,7 +84,8 @@ function renderMarkers() {
         lat: trackInfo.Latitude,
         long: trackInfo.Longitude,
         recap: trackInfo.Recap,
-        configs: []
+        configs: [],
+        type: trackInfo.Type
       })
     }
   })
@@ -89,12 +97,35 @@ function renderMarkers() {
     }
   })
 
+  const iconOval = new Icon({iconUrl: `/marker_blue.png`, iconSize: [25, 41], iconAnchor: [12, 41], className: "marker-blue"});
+  const iconRoadCourse = new Icon({iconUrl: `/marker_blue.png`, iconSize: [25, 41], iconAnchor: [12, 41], className: "marker-red"});
+  const iconF8 = new Icon({iconUrl: `/marker_blue.png`, iconSize: [25, 41], iconAnchor: [12, 41], className: "marker-green"});
+  const iconUnknown = new Icon({iconUrl: `/marker_blue.png`, iconSize: [25, 41], iconAnchor: [12, 41], className: "marker-unknown"});
+
   return markers
     .filter((marker: any) => marker.lat !== undefined && marker.long !== undefined)
     .map((marker: any) => {
+      let icon;
+      switch (marker.type) {
+        case "Oval":
+          icon = iconOval;
+          break;
+        case "Road Course":
+          icon = iconRoadCourse;
+          break;
+        case "Figure 8":
+        case "Figure-8":
+          icon = iconF8;
+          break;
+        default:
+          // throw new Error("Invalid track type")
+          icon = iconUnknown;
+          break;
+      }
+
       return <Marker 
         position={[marker.lat, marker.long]}
-        icon={new Icon({iconUrl: markerIconPng as any, iconSize: [25, 41], iconAnchor: [12, 41]})}
+        icon={icon}
         key={`${marker.name}${marker.lat}${marker.long}`}
       >
         <Popup>

@@ -29,3 +29,20 @@ body {
 a {
   color: #fff;
 }
+
+.footer {
+  padding-top: 40px;
+  font-size: 11px;
+}
+
+.marker-red {
+  filter: hue-rotate(120deg);
+}
+
+.marker-green {
+  filter: hue-rotate(270deg);
+}
+
+.marker-unknown {
+  filter: brightness(0)
+}

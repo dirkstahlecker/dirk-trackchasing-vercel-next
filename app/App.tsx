@@ -9,7 +9,7 @@ import { RacesTab } from "./RacesTab";
 import { TracksTab } from "./TracksTab";
 
 export default function App() {
-  return (
+  return (<>
     <div className="App box">
       <h1>Dirk Trackchasing</h1>
 
@@ -36,6 +36,10 @@ export default function App() {
         <TabPanel><RecapsTab/></TabPanel>
         <TabPanel><FlipsTab/></TabPanel>
       </Tabs>
+
+    <div className="footer">
+      &copy; Dirk Stahlecker <a href="mailto:TrackchaserDirk@gmail.com">TrackchaserDirk@gmail.com</a>
     </div>
-  );
+    </div>
+  </>);
 }
