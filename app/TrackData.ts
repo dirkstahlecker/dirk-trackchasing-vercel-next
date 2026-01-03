@@ -3425,12 +3425,3 @@ export const getTrackDataJson = (): Map<number, TrackRecord> => {
     ])
   );
 };
-
-// const parsed = JSON.parse(trackDataString) as Record<string, TrackRecord>;
-
-// export const trackDataJson: TrackData = Object.assign(
-//   {},
-//   ...Object.entries(parsed).map(([key, value]) => ({
-//     [Number(key)]: value
-//   }))
-// );

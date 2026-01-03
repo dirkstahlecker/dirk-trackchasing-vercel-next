@@ -56,32 +56,30 @@ export class LeafletMap extends React.Component {
 function renderMarkers() {
   const markers: any = []
   const configs: any[] = [] //don't know what order we'll have, we'll put these into the markers after
-  const y = getTrackDataJson()
-  y.forEach((value: TrackRecord, trackNum: number) => {
+  const trackDataJson = getTrackDataJson()
+  trackDataJson.forEach((trackInfo: TrackRecord, trackNum: number) => {
     // const trackInfo: TrackRecord = trackDataJson.tracks[trackNum]
-    const x = 1
-    console.log("")
 
-    // if (trackInfo["Parent Track"]) {
-    //   //This is a configuration
-    //   //Don't make it's own marker, add it as a configuration later on
-    //   configs.push({
-    //     name: trackInfo.Track,
-    //     parent: trackInfo["Parent Track"],
-    //     date: trackInfo.Date,
-    //     recap: trackInfo.Recap,
-    //   })
-    //   continue
-    // }
-
-    // markers.push({
-    //   name: trackInfo.Track,
-    //   date: trackInfo.Date,
-    //   lat: trackInfo.Latitude,
-    //   long: trackInfo.Longitude,
-    //   recap: trackInfo.Recap,
-    //   configs: []
-    // })
+    if (trackInfo.ParentTrack) {
+      //This is a configuration
+      //Don't make it's own marker, add it as a configuration later on
+      configs.push({
+        name: trackInfo.Track,
+        parent: trackInfo.ParentTrack,
+        date: trackInfo.Date,
+        recap: trackInfo.Recap,
+      })
+    }
+    else {
+      markers.push({
+        name: trackInfo.Track,
+        date: trackInfo.Date,
+        lat: trackInfo.Latitude,
+        long: trackInfo.Longitude,
+        recap: trackInfo.Recap,
+        configs: []
+      })
+    }
   })
 
   configs.forEach((config) => {
@@ -97,7 +95,7 @@ function renderMarkers() {
       return <Marker 
         position={[marker.lat, marker.long]}
         icon={new Icon({iconUrl: markerIconPng as any, iconSize: [25, 41], iconAnchor: [12, 41]})}
-        key={`${marker.lat}${marker.long}`}
+        key={`${marker.name}${marker.lat}${marker.long}`}
       >
         <Popup>
           {printNameAndDate(marker.name, marker.date)}

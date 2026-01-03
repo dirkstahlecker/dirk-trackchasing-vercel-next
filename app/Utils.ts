@@ -1,5 +1,7 @@
 'use client'
 
+import { TrackRecord } from "./TrackData";
+
 export function printNameAndDate(nameIn: string, dateIn: string) {
   function printDate(input: any) {
     if (input === undefined) {
@@ -18,4 +20,8 @@ export function printNameAndDate(nameIn: string, dateIn: string) {
     return nameIn
   }
   return `${date}: ${name}`
+}
+
+export function makeKey(trackRecord: TrackRecord): string {
+  return `${trackRecord.Track}${trackRecord.Latitude}${trackRecord.Longitude}`
 }
