@@ -1,11 +1,18 @@
-'use client'
-
 import "./App.css";
 import L from 'leaflet';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-export default function Home() {
+// function makeMapMarkersWork() {
+//   // delete L.Icon.Default.prototype._getIconUrl;
+//   L.Icon.Default.mergeOptions({
+//     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+//     iconUrl: require('leaflet/dist/images/marker-icon.png'),
+//     shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+//   });
+// }
+
+function App() {
   // makeMapMarkersWork()
 
   return (
@@ -35,11 +42,4 @@ export default function Home() {
   );
 }
 
-// function makeMapMarkersWork() {
-//   // delete L.Icon.Default.prototype._getIconUrl;
-//   L.Icon.Default.mergeOptions({
-//     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-//     iconUrl: require('leaflet/dist/images/marker-icon.png'),
-//     shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-//   });
-// }
+export default App;

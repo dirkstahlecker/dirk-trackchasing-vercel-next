@@ -1,0 +1,24 @@
+.App {
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+
+.external-link {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.box {
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #fff;
+}
