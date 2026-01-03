@@ -1,6 +1,7 @@
 import React from "react"
 import { printNameAndDate } from "./Utils"
-import { trackDataJson } from "./TrackData"
+import { getTrackDataJson, TrackRecord } from "./TrackData"
+// import { trackDataJson } from "./TrackData"
 
 let MapContainer: any
 let TileLayer: any
@@ -55,8 +56,11 @@ export class LeafletMap extends React.Component {
 function renderMarkers() {
   const markers: any = []
   const configs: any[] = [] //don't know what order we'll have, we'll put these into the markers after
-  for (const trackNum in trackDataJson) {
-    // const trackInfo = trackDataJson[trackNum]
+  const y = getTrackDataJson()
+  y.forEach((value: TrackRecord, trackNum: number) => {
+    // const trackInfo: TrackRecord = trackDataJson.tracks[trackNum]
+    const x = 1
+    console.log("")
 
     // if (trackInfo["Parent Track"]) {
     //   //This is a configuration
@@ -78,7 +82,7 @@ function renderMarkers() {
     //   recap: trackInfo.Recap,
     //   configs: []
     // })
-  }
+  })
 
   configs.forEach((config) => {
     const m = markers.find((marker: any) => marker.name === config.parent)

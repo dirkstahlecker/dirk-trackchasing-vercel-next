@@ -1,7 +1,8 @@
 'use client'
 
 import { LeafletMap } from './Map';
-import { trackDataJson } from './TrackData';
+import { getTrackDataJson } from './TrackData';
+// import { trackDataJson } from './TrackData';
 
 export function RacesTab() {
   return <div>
@@ -12,11 +13,11 @@ export function RacesTab() {
 }
 
 function renderStats() {
-  const x = trackDataJson;
-  let totalTracks: number = Object.keys(trackDataJson).length;
+  const x = getTrackDataJson();
+  let totalTracks: number = Object.keys(x).length;
   
   const statesSet = new Set<string>()
-  for (const trackNum in trackDataJson) {
+  for (const trackNum in x) {
     // const trackInfo = trackDataJson[trackNum]
     // statesSet.add(trackInfo.State)
   }
