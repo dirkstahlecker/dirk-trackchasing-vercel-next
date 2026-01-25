@@ -1,6 +1,6 @@
 'use client'
 
-import { TrackRecord } from "./TrackData";
+import { getTrackDataJson, TrackRecord } from "./TrackData";
 
 export function printNameAndDate(nameIn: string, dateIn: string) {
   function printDate(input: any) {
@@ -24,4 +24,14 @@ export function printNameAndDate(nameIn: string, dateIn: string) {
 
 export function makeKey(trackRecord: TrackRecord): string {
   return `${trackRecord.Track}${trackRecord.Latitude}${trackRecord.Longitude}`
+}
+
+export function getLastTrack(): TrackRecord {
+  const trackData = getTrackDataJson();
+  const ret = trackData.get(trackData.size)
+  if (ret === undefined)
+  {
+    throw new Error("Cannot get last track")
+  }
+  return ret;
 }

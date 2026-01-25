@@ -4239,13 +4239,18 @@ const trackDataString =
 }
 `
 
+//track number -> TrackRecord
 export const getTrackDataJson = (): Map<number, TrackRecord> => {
-  const obj = JSON.parse(trackDataString) as Record<string, TrackRecord>;
+  const obj = JSON.parse(trackDataString) as Record<string, any>;
 
   return new Map(
-    Object.entries(obj).map(([key, value]) => [
-      Number(key),
-      new TrackRecord(value)
-    ])
+    Object.entries(obj).map(([key, value]) => {
+      const record = new TrackRecord({
+        ...value,
+        ParentTrack: value["Parent Track"],
+      });
+
+      return [Number(key), record];
+    })
   );
 };

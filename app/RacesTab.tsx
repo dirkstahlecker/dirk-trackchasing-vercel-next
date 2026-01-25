@@ -1,19 +1,41 @@
 'use client'
 
+import { JSX } from 'react';
 import { LeafletMap } from './Map';
 import { getTrackDataJson, TrackRecord } from './TrackData';
+import { getLastTrack, printNameAndDate } from './Utils';
 
 export function RacesTab() {
   return <div>
     <LeafletMap/>
     <br/>
+    Latest New Track:
+    <br/>
+    {renderLastTrackSection()}
+    <br/>
+    <br/>
     {renderStats()}
   </div>
+}
+
+function renderLastTrackSection(): JSX.Element {
+  const lastTrack = getLastTrack()
+  return <>
+    {printNameAndDate(lastTrack.Track, lastTrack.Date)}
+  </>
 }
 
 function renderStats() {
   const trackDataJson = getTrackDataJson();
   let totalTracks: number = trackDataJson.size
+
+  let tracksThisYear: number = 0;
+  const beginningOfYear = new Date(new Date().getFullYear(), 0, 1);
+  trackDataJson.forEach((trackRecord: TrackRecord) => {
+    if (new Date(trackRecord.Date) > beginningOfYear) {
+      tracksThisYear++
+    }
+  })
   
   const statesSet = new Set<string>()
   trackDataJson.forEach((trackInfo: TrackRecord, trackNum: number) => {
@@ -38,5 +60,7 @@ function renderStats() {
   return <>
     <div>Total Tracks: {totalTracks}</div>
     <div>Total States: {totalStates}</div>
+    <br/>
+    <div>Tracks This Year: {tracksThisYear}</div>
   </>
 }

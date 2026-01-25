@@ -778,39 +778,39 @@ export function FlipsTab() {
       <br/>
       <a href="https://youtu.be/HXiJfaBgLa0" target="_blank">718 Gateway Dirt Nationals</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/SF1Y5_WmMUc" target="_blank">693 and 694 Merced Speedway</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/hNiEu7lXLT4" target="_blank">695 Merced Speedway</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/Fez235eSy5c" target="_blank">696 Merced Speedway</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/cnKAcKSGMPA" target="_blank">719 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/MIuKzpsAFhw" target="_blank">721 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/nsXbHwdblug" target="_blank">722 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/y_DPS-mouxE" target="_blank">723 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/96GkPNaDJCs" target="_blank">724 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/oYEllJC4P68" target="_blank">725 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/J9wtkY9PzD8" target="_blank">726 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/L8i5nPckMFc" target="_blank">727 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/zEYH4bp3zb4" target="_blank">728 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/JhpBJz-hHpE" target="_blank">729 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/Q-h4ypDqTEU" target="_blank">730 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/1vekAt2Ba2M" target="_blank">731 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/566z3xRJNq8" target="_blank">732 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/P94lSRMEdtE" target="_blank">733 Chili Bowl</a>
       <br/>
       <a href="" target="_blank"></a>
       <br/>

@@ -1,5 +1,5 @@
 import React from "react"
-import { printNameAndDate } from "./Utils"
+import { makeKey, printNameAndDate } from "./Utils"
 import { getTrackDataJson, TrackRecord } from "./TrackData"
 
 let MapContainer: any
@@ -141,13 +141,13 @@ function renderMarkers() {
               <>
                 {
                 marker.configs.map((config: any) => {
-                  return <>
+                  return <React.Fragment key={`${config.name}${config.date}`}>
                     <br/>&nbsp;&nbsp;{printNameAndDate(config.name, config.date)}
                     {
                       config.recap !== undefined &&
                       <>{" "}(<a href={config.recap} target="_blank">Recap</a>)</>
                     }
-                  </>
+                  </React.Fragment>
                 })
                 }
               </>
