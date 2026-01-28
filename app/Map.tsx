@@ -132,6 +132,7 @@ function renderMarkers() {
           {printNameAndDate(marker.name, marker.date)}
           {
             marker.recap !== undefined &&
+            marker.recap !== "" &&
             <>{" "}(<a href={marker.recap} target="_blank">Recap</a>)</>
           }
           {
@@ -145,6 +146,7 @@ function renderMarkers() {
                     <br/>&nbsp;&nbsp;{printNameAndDate(config.name, config.date)}
                     {
                       config.recap !== undefined &&
+                      config.recap !== "" &&
                       <>{" "}(<a href={config.recap} target="_blank">Recap</a>)</>
                     }
                   </React.Fragment>

@@ -808,11 +808,11 @@ export function FlipsTab() {
       <br/>
       <a href="https://youtu.be/1vekAt2Ba2M" target="_blank">731 Chili Bowl</a>
       <br/>
-      <a href="https://youtu.be/566z3xRJNq8" target="_blank">732 Chili Bowl</a>
+      <a href="https://youtu.be/566z3xRJNq8" target="_blank">732 Chili Bowl (Hot Laps)</a>
       <br/>
       <a href="https://youtu.be/P94lSRMEdtE" target="_blank">733 Chili Bowl</a>
       <br/>
-      <a href="" target="_blank"></a>
+      <a href="https://youtu.be/_cU9qmJNby4" target="_blank">734 Chili Bowl</a>
       <br/>
       <a href="" target="_blank"></a>
       <br/>
