@@ -25,7 +25,7 @@ export default function App() {
 
       <Tabs>
         <TabList>
-          <Tab>Races</Tab>
+          <Tab>Home</Tab>
           <Tab>Tracks</Tab>
           <Tab>Recaps</Tab>
           <Tab>Flips</Tab>

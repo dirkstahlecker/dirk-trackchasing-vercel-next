@@ -2964,6 +2964,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "43.1852058867595",
     "Longitude": "-72.2044859113491",
     "Races": "1"
@@ -2980,6 +2981,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "A Lot of Character",
     "Latitude": "41.0530274224296",
     "Longitude": "-75.511114113931",
     "Races": "1"
@@ -3358,6 +3360,7 @@ const trackDataString =
     "Status": "Temporary",
     "Setting": "Outdoor",
     "Place": "Parking Lot",
+    "Character": "Minimal Character",
     "Latitude": "36.1106317636384",
     "Longitude": "-115.16586137726",
     "Races": "1"
@@ -3373,6 +3376,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Minimal Character",
     "Latitude": "33.0330202951979",
     "Longitude": "-97.2741528032076",
     "Races": "1"
@@ -3435,6 +3439,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "42.8991596291346",
     "Longitude": "-79.2001775285694",
     "Races": "1"
@@ -3450,6 +3455,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Fair",
+    "Character": "Minimal Character",
     "Latitude": "39.1320040802686",
     "Longitude": "-85.2982466195092",
     "Races": "1"
@@ -3466,6 +3472,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "38.8694704416874",
     "Longitude": "-86.0292381889751",
     "Races": "1"
@@ -3482,6 +3489,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "39.4205296084158",
     "Longitude": "-87.4207156301518",
     "Races": "1"
@@ -3497,6 +3505,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "38.2696195323301",
     "Longitude": "-90.4017250550639",
     "Races": "1"
@@ -3512,6 +3521,7 @@ const trackDataString =
     "Status": "Temporary",
     "Setting": "Outdoor",
     "Place": "Fair",
+    "Character": "Minimal Character",
     "Latitude": "42.4653488798203",
     "Longitude": "-71.6593508718243",
     "Races": "1"
@@ -3556,6 +3566,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "43.0208682880106",
     "Longitude": "-88.0115438174741",
     "Races": "1"
@@ -3572,6 +3583,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "A Lot of Character",
     "Latitude": "43.0046355149073",
     "Longitude": "-88.9365022334165",
     "Races": "1"
@@ -3601,6 +3613,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Oozing with Character",
     "Latitude": "43.1779187716092",
     "Longitude": "-89.2116509921928",
     "Races": "1"
@@ -3632,6 +3645,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "38.3138310055958",
     "Longitude": "-85.7553740772788",
     "Races": "1"
@@ -3708,6 +3722,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "36.1989520979928",
     "Longitude": "-119.342143926938",
     "Races": "1"
@@ -3724,6 +3739,7 @@ const trackDataString =
     "Status": "Temporary",
     "Setting": "Outdoor",
     "Place": "Street",
+    "Character": "Decent Character",
     "Latitude": "36.1101483616748",
     "Longitude": "-115.162435343341",
     "Races": "1"
@@ -3806,6 +3822,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "34.9982773750195",
     "Longitude": "-79.0679689382029",
     "Races": "1"
@@ -3884,6 +3901,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Oozing with Character",
     "Latitude": "39.794538332649",
     "Longitude": "-86.2347674604083",
     "Races": "1"
@@ -4216,6 +4234,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Parent Track": "Glen Helen Raceway",
     "Races": "1"
   },
@@ -4234,6 +4253,19 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "35.2954510901183",
     "Longitude": "-119.256838121985",
+    "Races": "1"
+  },
+  "275": {
+    "Track": "Lake Luzerne",
+    "Date": "2026-02-21T05:00:00.000Z",
+    "State": "NY",
+    "City": "Lake Luzerne",
+    "Type": "Road Course",
+    "Surface": "Ice",
+    "Status": "Temporary",
+    "Setting": "Outdoor",
+    "Place": "Lake",
+    "Character": "Minimal Character",
     "Races": "1"
   }
 }

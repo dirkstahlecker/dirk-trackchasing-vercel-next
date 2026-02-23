@@ -1,0 +1,14 @@
+.tracks-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.tracks-row {
+  display: flex;
+}
+
+.tracks-column {
+  padding: 10px;
+}
