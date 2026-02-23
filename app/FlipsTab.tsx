@@ -750,7 +750,31 @@ export function FlipsTab() {
       <br/>
       <a href="https://youtu.be/4HiD2hQCfQo" target="_blank">674 Bridgeport Motorsports Park</a>
       <br/>
+      <a href="https://youtu.be/cnPFZ4SHN1s" target="_blank">677 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/Shdp9Fp0L70" target="_blank">678 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/L8xLsRuPX4Q" target="_blank">679 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/eJOhdCoKnTU" target="_blank">680 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/SGYFD_sDRCY" target="_blank">681 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/a5O_mEJY9XQ" target="_blank">682 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/osqfUgX2qL4" target="_blank">683 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/bDz27wbZwZU" target="_blank">684 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/ptkprjztrLA" target="_blank">685 Placerville Speedway</a>
+      <br/>
+      <a href="https://youtu.be/Tm6CZQV4HM4" target="_blank">688 Placerville Speedway</a>
+      <br/>
       <a href="https://youtube.com/shorts/yv2fHGZ4_98" target="_blank">690 Merced Speedway</a>
+      <br/>
+      <a href="https://youtu.be/DNXfOnUnY50" target="_blank">691 Merced Speedway (Qualifying)</a>
+      <br/>
+      <a href="https://youtu.be/njCrLvDsPoc" target="_blank">692 Merced Speedway</a>
       <br/>
       <a href="https://youtu.be/SF1Y5_WmMUc" target="_blank">693 and 694 Merced Speedway</a>
       <br/>
@@ -817,30 +841,6 @@ export function FlipsTab() {
       <a href="https://youtu.be/ybQHrSyHtlU" target="_blank">740 Cure Insurance Arena</a>
       <br/>
       <a href="https://youtube.com/shorts/PeEB_dwg-Qk" target="_blank">741 Cure Insurance Arena</a>
-      <br/>
-      <a href="https://youtu.be/cnPFZ4SHN1s" target="_blank">677 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/Shdp9Fp0L70" target="_blank">678 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/L8xLsRuPX4Q" target="_blank">679 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/eJOhdCoKnTU" target="_blank">680 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/SGYFD_sDRCY" target="_blank">681 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/a5O_mEJY9XQ" target="_blank">682 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/osqfUgX2qL4" target="_blank">683 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/bDz27wbZwZU" target="_blank">684 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/ptkprjztrLA" target="_blank">685 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/Tm6CZQV4HM4" target="_blank">688 Placerville Speedway</a>
-      <br/>
-      <a href="https://youtu.be/DNXfOnUnY50" target="_blank">691 Merced Speedway</a>
-      <br/>
-      <a href="https://youtu.be/njCrLvDsPoc" target="_blank">692 Merced Speedway</a>
       <br/>
       <a href="" target="_blank"></a>
       <br/>
