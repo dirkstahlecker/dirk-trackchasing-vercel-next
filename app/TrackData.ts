@@ -17,6 +17,7 @@ export class TrackRecord {
   public Place: string = "";
   public Character: string = "";
   public ID: string = "";
+  public Number: string = "";
   public Races: string = ""; //INACCURATE
 
   constructor(init?: Partial<TrackRecord>) {
@@ -1086,7 +1087,7 @@ const trackDataString =
     "Type": "Oval",
     "Surface": "Concrete",
     "Length": "0.175",
-    "Recap": "https://docs.google.com/document/d/1NY7k5ZdvMczqQ2cToR47BTQnS27GM3610PHW8iY0lZQ/edit?usp=sharing",
+    "Recap": "https://docs.google.com/document/d/e/2PACX-1vQteKjSR7KbRbF7fPbNy2IG_5VnMNfv944YPwxlqe2N8uO8Xbo4ayYyYWTkWFyYz7ZCMslh7Gm7Z0tS/pub?embedded=true",
     "Status": "Temporary",
     "Setting": "Indoor",
     "Place": "Arena",
@@ -4559,6 +4560,7 @@ export const getTrackDataJson = (): Map<number, TrackRecord> => {
       const record = new TrackRecord({
         ...value,
         ParentTrack: value["Parent Track"],
+        Number: key,
       });
 
       return [Number(key), record];

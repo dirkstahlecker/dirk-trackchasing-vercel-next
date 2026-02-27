@@ -3,8 +3,7 @@
 import "./Tracks.css"
 import { getTrackDataJson, TrackRecord } from "../TrackData"
 import { useState } from "react"
-import TracksList from "@/app/TracksList"
-import { SingleTrack } from "./SingleTrack"
+import TracksList from "./TracksList"
 
 export default function TracksTab() {
   const tracksArray: {trackInfo: TrackRecord, trackNum: number}[] = []
