@@ -4538,7 +4538,7 @@ const trackDataString =
     "City": "Lake Luzerne",
     "Type": "Road Course",
     "Surface": "Ice",
-    "Recap": "https://docs.google.com/document/d/1tgxtGLyrwvsPyWqxu5DGiOMDrKlZq0vVXg8jhS84zlc/edit?usp=sharing",
+    "Recap": "https://docs.google.com/document/d/e/2PACX-1vThN04B8Kqu0DF8lF67JXhIij1sSDK8SPzcTqmF4eHMc3o4m3QxLbtB1X_0fiYdeoiAmJxSYWKoJoUt/pub?embedded=true",
     "Status": "Temporary",
     "Setting": "Outdoor",
     "Place": "Lake",

@@ -1,6 +1,5 @@
 'use client'
 
-import 'leaflet/dist/leaflet.css';
 import { printNameAndDate } from '../Utils';
 import React from 'react';
 import { getTrackDataJson, TrackRecord } from '../TrackData';

@@ -1,5 +1,6 @@
 'use client'
 
+import 'leaflet/dist/leaflet.css'
 import "./Header.css";
 import 'react-tabs/style/react-tabs.css';
 import { ReactNode } from "react";
