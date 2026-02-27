@@ -6,7 +6,7 @@ import 'react-tabs/style/react-tabs.css';
 import { RecapsTab } from "./RecapsTab";
 import { FlipsTab } from "./FlipsTab";
 import { RacesTab } from "./RacesTab";
-import { TracksTab } from "./TracksTab";
+import { TracksTab } from "./tracksTab/TracksTab";
 
 export default function App() {
   return (<>
