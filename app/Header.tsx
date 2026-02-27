@@ -3,6 +3,7 @@
 import "./Header.css";
 import 'react-tabs/style/react-tabs.css';
 import { ReactNode } from "react";
+import Link from "next/link";
 
 export interface AppProps {
   children?: ReactNode;
@@ -21,7 +22,28 @@ export default function Header(props: AppProps) {
           here
         </a>
       </p>
-      <hr/>
+      
+      {/* <Tabs>
+        <TabList>
+          <Tab>Home</Tab>
+          <Tab>Tracks</Tab>
+          <Tab>Recaps</Tab>
+          <Tab>Flips</Tab>
+        </TabList>
+
+        <TabPanel><RacesTab/></TabPanel>
+        <TabPanel><TracksTab/></TabPanel>
+        <TabPanel><RecapsTab/></TabPanel>
+        <TabPanel><FlipsTab/></TabPanel>
+      </Tabs> */}
+
+      <Link href="/races">Races</Link>
+      &nbsp;
+      <Link href="/tracks">Tracks</Link>
+      &nbsp;
+      <Link href="/recaps">Recaps</Link>
+      &nbsp;
+      <Link href="/flips">Flips</Link>
 
       {props.children}
 

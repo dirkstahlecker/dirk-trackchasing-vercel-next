@@ -1,9 +1,9 @@
 'use client'
 
 import { JSX } from 'react';
-import { LeafletMap } from './Map';
-import { getTrackDataJson, TrackRecord } from './TrackData';
-import { getLastTrack, printNameAndDate } from './Utils';
+import { LeafletMap } from '../Map';
+import { getTrackDataJson, TrackRecord } from '../TrackData';
+import { getLastTrack, printNameAndDate } from '../Utils';
 
 export function RacesTab() {
   return <div>

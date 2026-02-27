@@ -5,7 +5,7 @@ import Header from "@/app/Header"
 //flip videos are on TrackchaserDirk youtube account
 
 export default function FlipsTab() {
-  return <Header>
+  return <>
       <h3>Flips</h3>
 
       <a href="https://youtu.be/a1qwU1SYpYk" target="_blank">22 Seekonk Speedway</a>
@@ -868,5 +868,5 @@ export default function FlipsTab() {
       <br/>
       <a href="" target="_blank"></a>
       <br/>  
-  </Header>
+  </>
 }
