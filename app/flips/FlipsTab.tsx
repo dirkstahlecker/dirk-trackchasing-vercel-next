@@ -1,13 +1,9 @@
 'use client'
 
-import Header from "@/app/Header"
-
 //flip videos are on TrackchaserDirk youtube account
 
 export default function FlipsTab() {
   return <>
-      <h3>Flips</h3>
-
       <a href="https://youtu.be/a1qwU1SYpYk" target="_blank">22 Seekonk Speedway</a>
       <br/>
       <a href="https://youtu.be/4i868jFmovM" target="_blank">25 Wall Stadium Speedwday</a>

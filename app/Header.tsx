@@ -3,14 +3,19 @@
 import 'leaflet/dist/leaflet.css'
 import "./Header.css";
 import 'react-tabs/style/react-tabs.css';
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 export interface AppProps {
   children?: ReactNode;
 }
 
+enum CurrentTab {RACES = "/races", TRACKS = "/tracks", RECAPS = "/recaps", FLIPS = "/flips"}
+
 export default function Header(props: AppProps) {
+  const currentPath = usePathname();
+
   return (<>
     <div className="App box">
       <h1>Dirk Trackchasing</h1>
@@ -38,13 +43,13 @@ export default function Header(props: AppProps) {
         <TabPanel><FlipsTab/></TabPanel>
       </Tabs> */}
 
-      <Link href="/races">Races</Link>
+      <Link className={`tab ${currentPath === CurrentTab.RACES.valueOf() ? "active" : ""}`} href="/races">Races</Link>
       &nbsp;
-      <Link href="/tracks">Tracks</Link>
+      <Link className={`tab ${currentPath === CurrentTab.TRACKS.valueOf() ? "active" : ""}`} href="/tracks">Tracks</Link>
       &nbsp;
-      <Link href="/recaps">Recaps</Link>
+      <Link className={`tab ${currentPath === CurrentTab.RECAPS.valueOf() ? "active" : ""}`} href="/recaps">Recaps</Link>
       &nbsp;
-      <Link href="/flips">Flips</Link>
+      <Link className={`tab ${currentPath === CurrentTab.FLIPS.valueOf() ? "active" : ""}`} href="/flips">Flips</Link>
       <hr/>
 
       {props.children}

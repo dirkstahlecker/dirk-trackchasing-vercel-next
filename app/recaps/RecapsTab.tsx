@@ -27,14 +27,6 @@ export function RecapsTab() {
   })
 
   return <>
-    <h3>Race Recaps</h3>
-
-    <iframe 
-      src="https://docs.google.com/document/d/e/2PACX-1vQteKjSR7KbRbF7fPbNy2IG_5VnMNfv944YPwxlqe2N8uO8Xbo4ayYyYWTkWFyYz7ZCMslh7Gm7Z0tS/pub?embedded=true"
-      style={{width: "800px", height: "500px"}}
-    />
-
-
     {recapsToPrint.map((recapObj) => <React.Fragment key={recapObj.name}>
       <a href={recapObj.recap} target="_blank">{printNameAndDate(recapObj.name, recapObj.date)}</a>
       <br/>

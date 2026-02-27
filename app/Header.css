@@ -46,3 +46,18 @@ a {
 .marker-unknown {
   filter: brightness(0)
 }
+
+.tab {
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+
+.tab:hover {
+  background-color: gray;
+}
+
+.tab.active {
+  background-color: #FFF;
+  color: #000;
+}
