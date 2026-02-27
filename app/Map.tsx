@@ -1,6 +1,7 @@
 import React from "react"
-import { makeKey, printNameAndDate } from "./Utils"
+import { makeKey, printDate, printNameAndDate } from "./Utils"
 import { getTrackDataJson, TrackRecord } from "./TrackData"
+import Link from "next/link"
 
 let MapContainer: any
 let TileLayer: any
@@ -61,6 +62,7 @@ export class LeafletMap extends React.Component {
    }
 }
 
+//TODO: rewrite using actual objects
 function renderMarkers() {
   const markers: any = []
   const configs: any[] = [] //don't know what order we'll have, we'll put these into the markers after
@@ -85,7 +87,8 @@ function renderMarkers() {
         long: trackInfo.Longitude,
         recap: trackInfo.Recap,
         configs: [],
-        type: trackInfo.Type
+        type: trackInfo.Type,
+        ID: trackInfo.ID,
       })
     }
   })
@@ -129,12 +132,7 @@ function renderMarkers() {
         key={`${marker.name}${marker.lat}${marker.long}`}
       >
         <Popup>
-          {printNameAndDate(marker.name, marker.date)}
-          {
-            marker.recap !== undefined &&
-            marker.recap !== "" &&
-            <>{" "}(<a href={marker.recap} target="_blank">Recap</a>)</>
-          }
+          {printDate(marker.date)}: <Link href={`/tracks/${marker.ID}`}>{marker.name}</Link>
           {
             marker.configs.length > 0 &&
             <>
@@ -143,12 +141,7 @@ function renderMarkers() {
                 {
                 marker.configs.map((config: any) => {
                   return <React.Fragment key={`${config.name}${config.date}`}>
-                    <br/>&nbsp;&nbsp;{printNameAndDate(config.name, config.date)}
-                    {
-                      config.recap !== undefined &&
-                      config.recap !== "" &&
-                      <>{" "}(<a href={config.recap} target="_blank">Recap</a>)</>
-                    }
+                    <br/>&nbsp;&nbsp;{printDate(config.date)}: <Link href={`/tracks/${config.ID}`}>{config.name}</Link>
                   </React.Fragment>
                 })
                 }

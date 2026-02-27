@@ -43,13 +43,13 @@ export default function Header(props: AppProps) {
         <TabPanel><FlipsTab/></TabPanel>
       </Tabs> */}
 
-      <Link className={`tab ${currentPath === CurrentTab.RACES.valueOf() ? "active" : ""}`} href="/races">Races</Link>
+      <Link className={`tab ${currentPath.startsWith(CurrentTab.RACES.valueOf()) ? "active" : ""}`} href="/races">Races</Link>
       &nbsp;
-      <Link className={`tab ${currentPath === CurrentTab.TRACKS.valueOf() ? "active" : ""}`} href="/tracks">Tracks</Link>
+      <Link className={`tab ${currentPath.startsWith(CurrentTab.TRACKS.valueOf()) ? "active" : ""}`} href="/tracks">Tracks</Link>
       &nbsp;
-      <Link className={`tab ${currentPath === CurrentTab.RECAPS.valueOf() ? "active" : ""}`} href="/recaps">Recaps</Link>
+      <Link className={`tab ${currentPath.startsWith(CurrentTab.RECAPS.valueOf()) ? "active" : ""}`} href="/recaps">Recaps</Link>
       &nbsp;
-      <Link className={`tab ${currentPath === CurrentTab.FLIPS.valueOf() ? "active" : ""}`} href="/flips">Flips</Link>
+      <Link className={`tab ${currentPath.startsWith(CurrentTab.FLIPS.valueOf()) ? "active" : ""}`} href="/flips">Flips</Link>
       <hr/>
 
       {props.children}

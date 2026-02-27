@@ -20,14 +20,14 @@ export function SingleTrack(props: SingleTrackProps) {
     <h3>{track.Track}</h3>
     First Visit: {printDate(track.Date)}
     <br/>
-    Track # {track.Number} | {track.City}, {track.State} | {lengthString}{track.Surface} {track.Type}
+    Track #{track.Number} | {track.City}, {track.State} | {lengthString}{track.Surface} {track.Type}
 
     <br/>
     <br/>
     {
       track.Recap &&
       //832 is apparently the width of the doc, can't make it larger
-      <iframe src={track.Recap} style={{width: "832px", height: "500px"}}/>
+      <iframe src={track.Recap} style={{width: "832px", height: "80vh"}}/>
     }
   </div>
 }
