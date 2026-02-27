@@ -35,3 +35,17 @@ export function getLastTrack(): TrackRecord {
   }
   return ret;
 }
+
+export function trackIdToTrackRecord(trackId: string | undefined): TrackRecord | null {
+  if (trackId === undefined) {
+    return null;
+  }
+  const trackData = getTrackDataJson();
+  let foundTrack: TrackRecord | null = null;
+  trackData.forEach((track: TrackRecord) => {
+    if (track.ID === trackId) {
+      foundTrack = track;
+    }
+  })
+  return foundTrack;
+}

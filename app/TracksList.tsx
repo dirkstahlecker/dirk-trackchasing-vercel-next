@@ -1,7 +1,7 @@
 'use client'
 
-import { TrackRecord } from "../app/TrackData"
-import { makeKey, printDate } from "../app/Utils"
+import { TrackRecord } from "./TrackData"
+import { makeKey, printDate } from "./Utils"
 
 export interface TracksListProps {
   tracksArray: {trackInfo: TrackRecord, trackNum: number}[]

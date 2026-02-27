@@ -3,9 +3,8 @@
 import "./Tracks.css"
 import { getTrackDataJson, TrackRecord } from "../TrackData"
 import { useState } from "react"
-import { TrackPage } from "./SingleTrack"
-import TracksList from "@/pages/TracksList"
-import Header from "../Header"
+import TracksList from "@/app/TracksList"
+import { SingleTrack } from "./SingleTrack"
 
 export default function TracksTab() {
   const tracksArray: {trackInfo: TrackRecord, trackNum: number}[] = []
@@ -20,9 +19,9 @@ export default function TracksTab() {
       mode === "LIST" &&
       <TracksList tracksArray={tracksArray}/>
     }
-    {
+    {/* {
       mode === "SINGLE" &&
-      <TrackPage track={tracksArray[0].trackInfo}/>
-    }
+      <SingleTrack trackId={tracksArray[0].trackInfo}/>
+    } */}
   </>
 }

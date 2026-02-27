@@ -44,6 +44,7 @@ export default function Header(props: AppProps) {
       <Link href="/recaps">Recaps</Link>
       &nbsp;
       <Link href="/flips">Flips</Link>
+      <hr/>
 
       {props.children}
 

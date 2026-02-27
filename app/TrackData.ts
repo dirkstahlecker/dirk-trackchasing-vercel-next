@@ -16,6 +16,7 @@ export class TrackRecord {
   public Setting: string = "";
   public Place: string = "";
   public Character: string = "";
+  public ID: string = "";
   public Races: string = ""; //INACCURATE
 
   constructor(init?: Partial<TrackRecord>) {
@@ -42,6 +43,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.285462",
     "Longitude": "-115.011854",
+    "ID": "The_Dirt_Track_at_Las_Vegas_Motor_Speedway",
     "Races": "1"
   },
   "2": {
@@ -57,6 +59,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.272028",
     "Longitude": "-115.01029",
+    "ID": "Las_Vegas_Motor_Speedway",
     "Races": "1"
   },
   "3": {
@@ -71,6 +74,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.912684",
     "Longitude": "-112.577022",
+    "ID": "Pocatello_Speedway",
     "Races": "1"
   },
   "4": {
@@ -86,6 +90,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.486547",
     "Longitude": "-114.502064",
+    "ID": "Magic_Valley_Speedway",
     "Races": "1"
   },
   "5": {
@@ -102,6 +107,7 @@ const trackDataString =
     "Total Races": "#ERROR!",
     "Latitude": "40.580394",
     "Longitude": "-112.378375",
+    "ID": "Miller_Motorsports_Park",
     "Races": "1"
   },
   "6": {
@@ -117,6 +123,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.37478",
     "Longitude": "-112.310508",
+    "ID": "Phoenix_International_Raceway",
     "Races": "1"
   },
   "7": {
@@ -132,6 +139,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.71917",
     "Longitude": "-112.046914",
+    "ID": "Rocky_Mountain_Raceways",
     "Races": "7"
   },
   "8": {
@@ -145,6 +153,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
+    "ID": "Rocky_Mountain_Raceways_(Asphalt_Figure_8)",
     "Races": "1"
   },
   "9": {
@@ -160,6 +169,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.446541",
     "Longitude": "-112.811413",
+    "ID": "Atomic_Motor_Raceway",
     "Races": "1"
   },
   "10": {
@@ -172,6 +182,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Atomic Motor Raceway",
+    "ID": "Atomic_Motor_Raceway_(Inner_Dirt_Oval)",
     "Races": "1"
   },
   "11": {
@@ -187,6 +198,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.607193",
     "Longitude": "-99.139804",
+    "ID": "Stuart_Speedway",
     "Races": "1"
   },
   "12": {
@@ -202,6 +214,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.024411",
     "Longitude": "-99.86834",
+    "ID": "Wakeeney_Speedway",
     "Races": "1"
   },
   "13": {
@@ -216,6 +229,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.585406",
     "Longitude": "-112.385315",
+    "ID": "Miller_Motorsports_Park_Off_Road_Course",
     "Races": "1"
   },
   "14": {
@@ -231,6 +245,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.36241",
     "Longitude": "-71.460713",
+    "ID": "New_Hampshire_Motor_Speedway",
     "Races": "1"
   },
   "15": {
@@ -245,6 +260,7 @@ const trackDataString =
     "Place": "Parking Lot",
     "Latitude": "40.72072",
     "Longitude": "-73.589474",
+    "ID": "Nassau_Coliseum_Parking_Lot",
     "Races": "1"
   },
   "16": {
@@ -258,6 +274,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
+    "ID": "Rocky_Mountain_Raceways_(Inner_Asphalt_Oval)",
     "Races": "1"
   },
   "17": {
@@ -271,6 +288,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
+    "ID": "Rocky_Mountain_Raceways_(Asphalt_Road_Course)",
     "Races": "1"
   },
   "18": {
@@ -286,6 +304,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.784545",
     "Longitude": "-71.302063",
+    "ID": "Seekonk_Speedway",
     "Races": "55"
   },
   "19": {
@@ -299,6 +318,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Pocatello Speedway",
+    "ID": "Pocatello_Speedway_(Inner_Dirt_Oval)",
     "Races": "1"
   },
   "20": {
@@ -312,6 +332,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Seekonk Speedway",
+    "ID": "Seekonk_Speedway_(Asphalt_Figure_8)",
     "Races": "1"
   },
   "21": {
@@ -327,6 +348,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.981539",
     "Longitude": "-71.824777",
+    "ID": "Thompson_Speedway",
     "Races": "1"
   },
   "22": {
@@ -341,6 +363,7 @@ const trackDataString =
     "Place": "Parking Lot",
     "Latitude": "33.715601",
     "Longitude": "-118.274313",
+    "ID": "Port_of_LA",
     "Races": "1"
   },
   "23": {
@@ -356,6 +379,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.029218",
     "Longitude": "-71.040663",
+    "ID": "Star_Speedway",
     "Races": "1"
   },
   "24": {
@@ -371,6 +395,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.955244",
     "Longitude": "-72.32045",
+    "ID": "Stafford_Motor_Speedway",
     "Races": "1"
   },
   "25": {
@@ -384,6 +409,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Thompson Speedway",
+    "ID": "Thompson_Speedway_(Mixed_Road_Course)",
     "Races": "1"
   },
   "26": {
@@ -399,6 +425,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.115867",
     "Longitude": "-71.039733",
+    "ID": "Lee_USA_Speedway",
     "Races": "1"
   },
   "27": {
@@ -414,6 +441,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.988542",
     "Longitude": "-73.78216",
+    "ID": "Albany-Saratoga_Speedway",
     "Races": "1"
   },
   "28": {
@@ -429,6 +457,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.396765",
     "Longitude": "-72.17621",
+    "ID": "New_London_Waterford_Speedbowl",
     "Races": "1"
   },
   "29": {
@@ -444,6 +473,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.153846",
     "Longitude": "-70.484541",
+    "ID": "Oxford_Plains_Speedway",
     "Races": "1"
   },
   "30": {
@@ -459,6 +489,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.491995",
     "Longitude": "-73.488908",
+    "ID": "Lebanon_Valley_Speedway",
     "Races": "1"
   },
   "31": {
@@ -474,6 +505,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.610212",
     "Longitude": "-70.380652",
+    "ID": "Beech_Ridge_Speedway",
     "Races": "1"
   },
   "32": {
@@ -489,6 +521,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.175186",
     "Longitude": "-74.115242",
+    "ID": "Wall_Stadium_Speedway",
     "Races": "1"
   },
   "33": {
@@ -502,6 +535,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Wall Stadium Speedway",
+    "ID": "Wall_Stadium_Speedway_(Inner_Asphalt_Oval)",
     "Races": "1"
   },
   "34": {
@@ -517,6 +551,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.813592",
     "Longitude": "-71.410685",
+    "ID": "Hudson_Speedway",
     "Races": "1"
   },
   "35": {
@@ -532,6 +567,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.035957",
     "Longitude": "-97.27588",
+    "ID": "Lil'_Texas_Motor_Speedway",
     "Races": "1"
   },
   "36": {
@@ -547,6 +583,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.036961",
     "Longitude": "-97.281602",
+    "ID": "Texas_Motor_Speedway",
     "Races": "1"
   },
   "37": {
@@ -560,6 +597,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Texas Motor Speedway",
+    "ID": "Texas_Motor_Speedway_(Asphalt_Road_Course)",
     "Races": "1"
   },
   "38": {
@@ -575,6 +613,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.831283",
     "Longitude": "-72.362489",
+    "ID": "Monadnock_Speedway",
     "Races": "1"
   },
   "39": {
@@ -588,6 +627,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Stafford Motor Speedway",
+    "ID": "Stafford_Motor_Speedway_(Inner_Asphalt_Oval)",
     "Races": "1"
   },
   "40": {
@@ -604,6 +644,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "43.998119",
     "Longitude": "-72.168196",
+    "ID": "Bear_Ridge_Speedway",
     "Races": "1"
   },
   "41": {
@@ -619,6 +660,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.667992",
     "Longitude": "-73.294175",
+    "ID": "Devil's_Bowl_Speedway",
     "Races": "1"
   },
   "42": {
@@ -635,6 +677,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "34.779166",
     "Longitude": "-80.78716",
+    "ID": "Lancaster_Speedway",
     "Races": "1"
   },
   "43": {
@@ -650,6 +693,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.352002",
     "Longitude": "-80.683515",
+    "ID": "Charlotte_Motor_Speedway_Roval",
     "Races": "1"
   },
   "44": {
@@ -666,6 +710,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "38.632739",
     "Longitude": "-90.188636",
+    "ID": "Gateway_Dirt_Nationals",
     "Races": "1"
   },
   "45": {
@@ -681,6 +726,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "40.21272",
     "Longitude": "-74.757592",
+    "ID": "Cure_Insurance_Arena",
     "Races": "1"
   },
   "46": {
@@ -696,6 +742,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "43.074406",
     "Longitude": "-76.221899",
+    "ID": "Exposition_Center",
     "Races": "1"
   },
   "47": {
@@ -711,6 +758,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.870591",
     "Longitude": "-76.994714",
+    "ID": "Lincoln_Speedway",
     "Races": "1"
   },
   "48": {
@@ -726,6 +774,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.535688",
     "Longitude": "-77.389519",
+    "ID": "Port_Royal_Speedway",
     "Races": "1"
   },
   "49": {
@@ -741,6 +790,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.447578",
     "Longitude": "-74.393426",
+    "ID": "Orange_County_Fair_Speedway",
     "Races": "1"
   },
   "50": {
@@ -756,6 +806,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.070578",
     "Longitude": "-74.467841",
+    "ID": "New_Egypt_Speedway",
     "Races": "1"
   },
   "51": {
@@ -772,6 +823,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "42.933938",
     "Longitude": "-74.4051",
+    "ID": "Glen_Ridge_Motorsports_Park",
     "Races": "1"
   },
   "52": {
@@ -787,6 +839,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.078706",
     "Longitude": "-75.516282",
+    "ID": "Utica-Rome_Speedway",
     "Races": "1"
   },
   "53": {
@@ -802,6 +855,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.179899",
     "Longitude": "-72.487877",
+    "ID": "Thunder_Road_International_Speedbowl",
     "Races": "1"
   },
   "54": {
@@ -818,6 +872,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "43.34798",
     "Longitude": "-71.463928",
+    "ID": "NHMS_Flat_Track",
     "Races": "1"
   },
   "55": {
@@ -833,6 +888,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.601855",
     "Longitude": "-116.390666",
+    "ID": "Meridian_Speedway",
     "Races": "1"
   },
   "56": {
@@ -849,6 +905,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "43.340632",
     "Longitude": "-88.277351",
+    "ID": "Slinger_Speedway",
     "Races": "1"
   },
   "57": {
@@ -862,6 +919,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Slinger Speedway",
+    "ID": "Slinger_Speedway_(Asphalt_Figure_8)",
     "Races": "1"
   },
   "58": {
@@ -875,6 +933,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Slinger Speedway",
+    "ID": "Slinger_Speedway_(Asphalt_Road_Course)",
     "Races": "1"
   },
   "59": {
@@ -890,6 +949,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.303158",
     "Longitude": "-92.657883",
+    "ID": "Southern_Iowa_Speedway",
     "Races": "1"
   },
   "60": {
@@ -905,6 +965,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.326589",
     "Longitude": "-93.111788",
+    "ID": "Knoxville_Raceway",
     "Races": "1"
   },
   "61": {
@@ -920,6 +981,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "46.750912",
     "Longitude": "-92.214314",
+    "ID": "Proctor_Speedway",
     "Races": "1"
   },
   "62": {
@@ -935,6 +997,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.155486",
     "Longitude": "-77.033648",
+    "ID": "William's_Grove_Speedway",
     "Races": "1"
   },
   "63": {
@@ -950,6 +1013,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.112489",
     "Longitude": "-76.825789",
+    "ID": "BAPS_Motor_Speedway",
     "Races": "1"
   },
   "64": {
@@ -963,6 +1027,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Seekonk Speedway",
+    "ID": "Seekonk_Speedway_(Asphalt_Road_Course)",
     "Races": "1"
   },
   "65": {
@@ -978,6 +1043,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.318608",
     "Longitude": "-84.633776",
+    "ID": "Eldora_Speedway",
     "Races": "1"
   },
   "66": {
@@ -993,6 +1059,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "40.602711",
     "Longitude": "-75.473078",
+    "ID": "PPL_Center",
     "Races": "1"
   },
   "67": {
@@ -1008,6 +1075,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.596926",
     "Longitude": "-71.542518",
+    "ID": "Riverside_Speedway",
     "Races": "1"
   },
   "68": {
@@ -1024,6 +1092,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "39.355096",
     "Longitude": "-74.438648",
+    "ID": "Boardwalk_Hall",
     "Races": "1"
   },
   "69": {
@@ -1040,6 +1109,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.391225",
     "Longitude": "-86.587073",
+    "ID": "Paragon_Speedway",
     "Races": "1"
   },
   "70": {
@@ -1055,6 +1125,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.483466",
     "Longitude": "-85.563242",
+    "ID": "Gas_City_Speedway",
     "Races": "1"
   },
   "71": {
@@ -1070,6 +1141,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.57626",
     "Longitude": "-86.869947",
+    "ID": "Lincoln_Park_Speedway",
     "Races": "1"
   },
   "72": {
@@ -1086,6 +1158,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "38.205983",
     "Longitude": "-87.553621",
+    "ID": "Tri-State_Speedway",
     "Races": "1"
   },
   "73": {
@@ -1101,6 +1174,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.104738",
     "Longitude": "-84.856087",
+    "ID": "Lawrenceburg_Speedway",
     "Races": "1"
   },
   "74": {
@@ -1116,6 +1190,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.51123",
     "Longitude": "-86.143393",
+    "ID": "Kokomo_Speedway",
     "Races": "1"
   },
   "75": {
@@ -1131,6 +1206,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.392067",
     "Longitude": "-72.352005",
+    "ID": "Claremont_Motorsports_Park",
     "Races": "1"
   },
   "76": {
@@ -1146,6 +1222,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.787057",
     "Longitude": "-76.870238",
+    "ID": "Selinsgrove_Speedway",
     "Races": "1"
   },
   "77": {
@@ -1161,6 +1238,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.372544",
     "Longitude": "-75.610115",
+    "ID": "Grandview_Speedway",
     "Races": "1"
   },
   "78": {
@@ -1176,6 +1254,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.660672",
     "Longitude": "-77.843921",
+    "ID": "Hagerstown_Speedway",
     "Races": "1"
   },
   "79": {
@@ -1192,6 +1271,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.684617",
     "Longitude": "-76.303246",
+    "ID": "Big_Diamond_Speedway",
     "Races": "1"
   },
   "80": {
@@ -1208,6 +1288,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.006522",
     "Longitude": "-71.681925",
+    "ID": "White_Mountain_Motorsports_Park",
     "Races": "1"
   },
   "81": {
@@ -1224,6 +1305,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.920848",
     "Longitude": "-71.414851",
+    "ID": "Londonderry_Speedway",
     "Races": "1"
   },
   "82": {
@@ -1239,6 +1321,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.818725",
     "Longitude": "-71.8937",
+    "ID": "Legion_Speedway",
     "Races": "1"
   },
   "83": {
@@ -1255,6 +1338,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.812582",
     "Longitude": "-86.340586",
+    "ID": "Lucas_Oil_Raceway",
     "Races": "1"
   },
   "84": {
@@ -1270,6 +1354,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "37.936849",
     "Longitude": "-93.392579",
+    "ID": "Lucas_Oil_Speedway_Off_Road_Course",
     "Races": "1"
   },
   "85": {
@@ -1285,6 +1370,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "37.940222",
     "Longitude": "-93.397699",
+    "ID": "Lucas_Oil_Speedway",
     "Races": "1"
   },
   "86": {
@@ -1301,6 +1387,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.829557",
     "Longitude": "-86.134228",
+    "ID": "Indiana_State_Fairgrounds",
     "Races": "1"
   },
   "87": {
@@ -1316,6 +1403,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "38.651483",
     "Longitude": "-90.135503",
+    "ID": "Gateway_Motorsports_Park",
     "Races": "1"
   },
   "88": {
@@ -1331,6 +1419,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.712101",
     "Longitude": "-89.006834",
+    "ID": "Macon_Speedway",
     "Races": "1"
   },
   "89": {
@@ -1345,6 +1434,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "New Hampshire Motor Speedway",
+    "ID": "New_Hampshire_Motor_Speedway_(Asphalt_Legends_Oval)",
     "Races": "1"
   },
   "90": {
@@ -1360,6 +1450,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.819307",
     "Longitude": "-75.317575",
+    "ID": "Bridgeport_Motorsports_Park",
     "Races": "1"
   },
   "91": {
@@ -1375,6 +1466,7 @@ const trackDataString =
     "Place": "Lake",
     "Latitude": "43.7416295733249",
     "Longitude": "-71.3972113377312",
+    "ID": "Lee_Pond",
     "Races": "1"
   },
   "92": {
@@ -1389,6 +1481,7 @@ const trackDataString =
     "Place": "Lake",
     "Latitude": "43.7588525295176",
     "Longitude": "-71.3935907924762",
+    "ID": "Berry_Pond",
     "Races": "1"
   },
   "93": {
@@ -1403,6 +1496,7 @@ const trackDataString =
     "Place": "Lake",
     "Latitude": "43.4442995517814",
     "Longitude": "-70.9636735387532",
+    "ID": "Northeast_Pond",
     "Races": "1"
   },
   "94": {
@@ -1417,6 +1511,7 @@ const trackDataString =
     "Place": "Lake",
     "Latitude": "42.7955399320377",
     "Longitude": "-72.0077349892875",
+    "ID": "Contoocook_Lake",
     "Races": "1"
   },
   "95": {
@@ -1432,6 +1527,7 @@ const trackDataString =
     "Place": "Fair",
     "Latitude": "43.2969490477573",
     "Longitude": "-70.9832266862897",
+    "ID": "Rochester_Fairgrounds",
     "Races": "1"
   },
   "96": {
@@ -1447,6 +1543,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.5155905074463",
     "Longitude": "-82.2571598217224",
+    "ID": "Bristol_Motor_Speedway_(Dirt)",
     "Races": "1"
   },
   "97": {
@@ -1462,6 +1559,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.6047121721003",
     "Longitude": "-81.0757647727015",
+    "ID": "Mountain_Creek_Speedway",
     "Races": "1"
   },
   "98": {
@@ -1477,6 +1575,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.6533176141607",
     "Longitude": "-80.6081584281256",
+    "ID": "Millbridge_Speedway",
     "Races": "1"
   },
   "99": {
@@ -1493,6 +1592,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.9847781036773",
     "Longitude": "-85.1945374800083",
+    "ID": "Boyd's_Speedway",
     "Races": "1"
   },
   "100": {
@@ -1508,6 +1608,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.9522323308999",
     "Longitude": "-74.3674486590383",
+    "ID": "Fonda_Speedway",
     "Races": "1"
   },
   "101": {
@@ -1522,6 +1623,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Fair",
     "Parent Track": "Rochester Fairgrounds",
+    "ID": "Rochester_Fairgrounds_(Dirt_Road_Course)",
     "Races": "1"
   },
   "102": {
@@ -1537,6 +1639,7 @@ const trackDataString =
     "Place": "Motocross",
     "Latitude": "41.7211615227574",
     "Longitude": "-71.9230246254887",
+    "ID": "Central_Cycle_Club",
     "Races": "1"
   },
   "103": {
@@ -1553,6 +1656,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.9013745954223",
     "Longitude": "-71.9881088527105",
+    "ID": "Pomfret_Speedway",
     "Races": "1"
   },
   "104": {
@@ -1569,6 +1673,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.2805236120949",
     "Longitude": "-76.383604336207",
+    "ID": "Fulton_Speedway",
     "Races": "1"
   },
   "105": {
@@ -1585,6 +1690,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.5161840133541",
     "Longitude": "-75.7831989072972",
+    "ID": "Action_Track_USA",
     "Races": "1"
   },
   "106": {
@@ -1601,6 +1707,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.810438439051",
     "Longitude": "-81.7821935585399",
+    "ID": "Wayne_County_Speedway",
     "Races": "1"
   },
   "107": {
@@ -1617,6 +1724,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.1645496520505",
     "Longitude": "-77.7836609426681",
+    "ID": "Path_Valley_Speedway_Park",
     "Races": "1"
   },
   "108": {
@@ -1633,6 +1741,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.7869677307743",
     "Longitude": "-76.8703099980556",
+    "ID": "Selinsgrove_Raceway_Park",
     "Races": "1"
   },
   "109": {
@@ -1649,6 +1758,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.9963649758338",
     "Longitude": "-76.4641344600989",
+    "ID": "Bloomsburg_Fairgrounds_Speedway",
     "Races": "1"
   },
   "110": {
@@ -1665,6 +1775,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.9224923000117",
     "Longitude": "-72.7045220371278",
+    "ID": "Riverhead_Raceway",
     "Races": "1"
   },
   "111": {
@@ -1678,6 +1789,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Riverhead Raceway",
+    "ID": "Riverhead_Raceway_(Asphalt_Figure_8)",
     "Races": "1"
   },
   "112": {
@@ -1694,6 +1806,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "45.1300012335653",
     "Longitude": "-95.0559613582346",
+    "ID": "KRA_Speedway",
     "Races": "1"
   },
   "113": {
@@ -1710,6 +1823,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "45.3621084965766",
     "Longitude": "-93.55824078866",
+    "ID": "ERX_Motor_Park",
     "Races": "1"
   },
   "114": {
@@ -1725,6 +1839,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.1537371391555",
     "Longitude": "-93.2559507034742",
+    "ID": "Mason_City_Motor_Speedway",
     "Races": "1"
   },
   "115": {
@@ -1740,6 +1855,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.2751593797983",
     "Longitude": "-76.2585880193477",
+    "ID": "Clyde_Martin_Memorial_Speedway",
     "Races": "1"
   },
   "116": {
@@ -1756,6 +1872,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.8494502339255",
     "Longitude": "-117.201095674817",
+    "ID": "Perris_Auto_Speeedway",
     "Races": "1"
   },
   "117": {
@@ -1772,6 +1889,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.5706706230416",
     "Longitude": "-96.5835316608866",
+    "ID": "Huset's_Speedway",
     "Races": "1"
   },
   "118": {
@@ -1788,6 +1906,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.5673049488553",
     "Longitude": "-86.0669514222237",
+    "ID": "Talladega_Superspeedway",
     "Races": "1"
   },
   "119": {
@@ -1804,6 +1923,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.5815423553349",
     "Longitude": "-86.0514625156166",
+    "ID": "Talladega_Short_Track",
     "Races": "1"
   },
   "120": {
@@ -1819,6 +1939,7 @@ const trackDataString =
     "Place": "Fair",
     "Latitude": "42.6283272037037",
     "Longitude": "-70.943103123818",
+    "ID": "Topsfield_Fair_Arena",
     "Races": "1"
   },
   "121": {
@@ -1835,6 +1956,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.3115230490482",
     "Longitude": "-111.565865280717",
+    "ID": "Arizona_Speedway",
     "Races": "1"
   },
   "122": {
@@ -1848,6 +1970,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Wild Horse Pass Motorsports Park",
+    "ID": "Wild_Horse_Pass_Motorsports_Park_[Short_Course]",
     "Races": "1"
   },
   "123": {
@@ -1862,6 +1985,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.264085330606",
     "Longitude": "-111.958944419759",
+    "ID": "Wild_Horse_Pass_Motorsports_Park",
     "Races": "1"
   },
   "124": {
@@ -1877,6 +2001,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.1887632910539",
     "Longitude": "-117.386511402105",
+    "ID": "Glen_Helen_Raceway",
     "Races": "1"
   },
   "125": {
@@ -1891,6 +2016,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Perris Auto Speeedway",
+    "ID": "Perris_Auto_Speeedway_[Dirt_Figure_8]",
     "Races": "1"
   },
   "126": {
@@ -1905,6 +2031,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Perris Auto Speeedway",
+    "ID": "Perris_Auto_Speeedway_[Inner_Dirt_Oval]",
     "Races": "1"
   },
   "127": {
@@ -1919,6 +2046,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Perris Auto Speeedway",
+    "ID": "Perris_Auto_Speeedway_[Dirt_Road_Course]",
     "Races": "1"
   },
   "128": {
@@ -1935,6 +2063,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "32.6159828658144",
     "Longitude": "-114.655874736883",
+    "ID": "Cocopah_Speedway",
     "Races": "1"
   },
   "129": {
@@ -1951,6 +2080,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.1095399082674",
     "Longitude": "-117.987927624045",
+    "ID": "Irwindale_Speedway",
     "Races": "1"
   },
   "130": {
@@ -1967,6 +2097,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.014011457585",
     "Longitude": "-118.287945146258",
+    "ID": "Los_Angeles_Memorial_Coliseum",
     "Races": "1"
   },
   "131": {
@@ -1983,6 +2114,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.6957687910595",
     "Longitude": "-81.2693514012835",
+    "ID": "Hickory_Motor_Speedway",
     "Races": "1"
   },
   "132": {
@@ -1999,6 +2131,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.1720897678417",
     "Longitude": "-81.1080438622015",
+    "ID": "Carolina_Speedway",
     "Races": "1"
   },
   "133": {
@@ -2014,6 +2147,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.3835077297094",
     "Longitude": "-84.3178574551298",
+    "ID": "Atlanta_Motor_Speedway",
     "Races": "1"
   },
   "134": {
@@ -2029,6 +2163,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.3057636660791",
     "Longitude": "-84.5898389294192",
+    "ID": "Senoia_Raceway",
     "Races": "1"
   },
   "135": {
@@ -2045,6 +2180,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.1079485084983",
     "Longitude": "-81.5977816529613",
+    "ID": "Cherokee_Speedway",
     "Races": "1"
   },
   "136": {
@@ -2061,6 +2197,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.2755527364598",
     "Longitude": "-119.304332771755",
+    "ID": "Ventura_Raceway",
     "Races": "1"
   },
   "137": {
@@ -2076,6 +2213,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Bakersfield Speedway",
+    "ID": "Bakersfield_Speedway_[Inner_Dirt_Oval]",
     "Races": "1"
   },
   "138": {
@@ -2092,6 +2230,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.2927692438009",
     "Longitude": "-119.256255030109",
+    "ID": "Kern_County_Raceway_Park",
     "Races": "1"
   },
   "139": {
@@ -2107,6 +2246,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "43.8110011883976",
     "Longitude": "-123.045621052352",
+    "ID": "Cottage_Grove_Speedway",
     "Races": "1"
   },
   "140": {
@@ -2123,6 +2263,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "48.576525406898",
     "Longitude": "-122.332882347983",
+    "ID": "Skagit_Speedway",
     "Races": "1"
   },
   "141": {
@@ -2139,6 +2280,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.1193145331075",
     "Longitude": "-76.4622813201344",
+    "ID": "Greenwood_Valley_Action_Tracks",
     "Races": "1"
   },
   "142": {
@@ -2153,6 +2295,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Bridgeport Motorsports Park",
+    "ID": "Spirit_Auto_Center_Speedway",
     "Races": "1"
   },
   "143": {
@@ -2168,6 +2311,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.4632998294636",
     "Longitude": "-75.9745481579341",
+    "ID": "Shellhammer_Dirt_Track",
     "Races": "1"
   },
   "144": {
@@ -2184,6 +2328,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.427578451762",
     "Longitude": "-76.506823276096",
+    "ID": "Linda's_Speedway",
     "Races": "1"
   },
   "145": {
@@ -2199,6 +2344,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.6745668213037",
     "Longitude": "-93.0133531174115",
+    "ID": "Iowa_Speedway",
     "Races": "1"
   },
   "146": {
@@ -2214,6 +2360,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.0324339176541",
     "Longitude": "-93.8767120037113",
+    "ID": "Boone_Speedway",
     "Races": "1"
   },
   "147": {
@@ -2229,6 +2376,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "42.1544758904535",
     "Longitude": "-92.0192253830214",
+    "ID": "Benton_County_Speedway",
     "Races": "1"
   },
   "148": {
@@ -2246,6 +2394,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "39.7311048205333",
     "Longitude": "-86.0383863331974",
+    "ID": "Circle_City_Raceway",
     "Races": "1"
   },
   "149": {
@@ -2261,6 +2410,7 @@ const trackDataString =
     "Place": "Fair",
     "Latitude": "38.6736910779316",
     "Longitude": "-84.3429424019852",
+    "ID": "Pendleton_County_Fairgrounds",
     "Races": "1"
   },
   "150": {
@@ -2278,6 +2428,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "39.1098246630204",
     "Longitude": "-86.523009132091",
+    "ID": "Bloomington_Speedway",
     "Races": "1"
   },
   "151": {
@@ -2293,6 +2444,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.7951021823793",
     "Longitude": "-86.2347219896014",
+    "ID": "Indianapolis_Motor_Speedway_Road_Course",
     "Races": "1"
   },
   "152": {
@@ -2309,6 +2461,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.9567332889702",
     "Longitude": "-88.033099675762",
+    "ID": "Dirt_City_Motorplex",
     "Races": "1"
   },
   "153": {
@@ -2324,6 +2477,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "New Hampshire Motor Speedway",
+    "ID": "New_Hampshire_Motor_Speedway_[Asphalt_Road_Course_-_Full]",
     "Races": "1"
   },
   "154": {
@@ -2341,6 +2495,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.5150840422171",
     "Longitude": "-76.9725809733495",
+    "ID": "Outlaw_Speedway",
     "Races": "1"
   },
   "155": {
@@ -2358,6 +2513,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "42.5426472279978",
     "Longitude": "-76.1168282537041",
+    "ID": "Skyline_Raceway_Motorsports_Park",
     "Races": "1"
   },
   "156": {
@@ -2374,6 +2530,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "42.3648652584672",
     "Longitude": "-76.0726253549486",
+    "ID": "Thunder_Mountain_Speedway",
     "Races": "1"
   },
   "157": {
@@ -2391,6 +2548,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.0921536456026",
     "Longitude": "-75.8162609055216",
+    "ID": "Five_Mile_Point_Speedway",
     "Races": "1"
   },
   "158": {
@@ -2408,6 +2566,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "34.640522874382",
     "Longitude": "-92.4398092135323",
+    "ID": "I-30_Speedway",
     "Races": "1"
   },
   "159": {
@@ -2424,6 +2583,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.0332848680928",
     "Longitude": "-83.9534497895667",
+    "ID": "Tri-County_Race_Track",
     "Races": "1"
   },
   "160": {
@@ -2440,6 +2600,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.1306854678169",
     "Longitude": "-86.7626303201759",
+    "ID": "Nashville_Fairgrounds_Speedway_[Inner]",
     "Races": "1"
   },
   "161": {
@@ -2456,6 +2617,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "35.8597861727612",
     "Longitude": "-83.7759310889283",
+    "ID": "411_Motor_Speedway",
     "Races": "1"
   },
   "162": {
@@ -2470,6 +2632,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Irwindale Speedway",
+    "ID": "Irwindale_Speedway_[Inner_Asphalt_Oval]",
     "Races": "1"
   },
   "163": {
@@ -2483,6 +2646,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Irwindale Speedway",
+    "ID": "Irwindale_Speedway_[Asphalt_Figure-8]",
     "Races": "1"
   },
   "164": {
@@ -2500,6 +2664,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "33.6875265947298",
     "Longitude": "-112.158191998534",
+    "ID": "Adobe_Mountain_Speedway",
     "Races": "1"
   },
   "165": {
@@ -2517,6 +2682,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "35.4514246435163",
     "Longitude": "-119.028834815099",
+    "ID": "Bakersfield_Speedway",
     "Races": "1"
   },
   "166": {
@@ -2534,6 +2700,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "37.9786431902449",
     "Longitude": "-89.22665402517",
+    "ID": "Southern_Illinois_Center",
     "Races": "1"
   },
   "167": {
@@ -2549,6 +2716,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "36.1344417505393",
     "Longitude": "-95.9325149211223",
+    "ID": "Tulsa_Expo_Raceway",
     "Races": "1"
   },
   "168": {
@@ -2563,6 +2731,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Latitude": "46.3462336932727",
     "Longitude": "-72.5594072408029",
+    "ID": "Circuit_de_Trois-Rivieres_(Rallycross)",
     "Races": "1"
   },
   "169": {
@@ -2578,6 +2747,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "29.2629468043957",
     "Longitude": "-82.1758988983068",
+    "ID": "Marion_County_Speedway",
     "Races": "1"
   },
   "170": {
@@ -2594,6 +2764,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "29.2157045217781",
     "Longitude": "-81.3442006912857",
+    "ID": "Volusia_Speedway_Park",
     "Races": "1"
   },
   "171": {
@@ -2610,6 +2781,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "28.0316066607177",
     "Longitude": "-81.7905987954891",
+    "ID": "Auburndale_Speedway",
     "Races": "1"
   },
   "172": {
@@ -2626,6 +2798,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "27.8853348766403",
     "Longitude": "-82.6896102093643",
+    "ID": "Showtime_Speedway",
     "Races": "1"
   },
   "173": {
@@ -2639,6 +2812,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Showtime Speedway",
+    "ID": "Showtime_Speedway_[Asphalt_Figure-8]",
     "Races": "1"
   },
   "174": {
@@ -2656,6 +2830,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "27.0390122232515",
     "Longitude": "-80.1845623475864",
+    "ID": "Hobe_Sound_Speedway",
     "Races": "1"
   },
   "175": {
@@ -2673,6 +2848,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "26.7675563361621",
     "Longitude": "-81.090152480741",
+    "ID": "Hendry_County_Motorsports_Park",
     "Races": "1"
   },
   "176": {
@@ -2690,6 +2866,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "29.0136617297322",
     "Longitude": "-81.0698479772792",
+    "ID": "New_Smyrna_Speedway",
     "Races": "1"
   },
   "177": {
@@ -2707,6 +2884,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "27.8840433324438",
     "Longitude": "-82.3882248101782",
+    "ID": "East_Bay_Raceway_Park",
     "Races": "1"
   },
   "178": {
@@ -2723,6 +2901,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "28.8075818194467",
     "Longitude": "-82.3152079722962",
+    "ID": "Citrus_County_Speedway",
     "Races": "1"
   },
   "179": {
@@ -2740,6 +2919,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "29.2823606666002",
     "Longitude": "-82.1861741089833",
+    "ID": "Ocala_Raceway",
     "Races": "1"
   },
   "180": {
@@ -2755,6 +2935,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "29.1864522178763",
     "Longitude": "-81.0710000722145",
+    "ID": "Daytona_International_Speedway",
     "Races": "1"
   },
   "181": {
@@ -2770,6 +2951,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.0874873510594",
     "Longitude": "-117.500664103446",
+    "ID": "Auto_Club_Speedway",
     "Races": "1"
   },
   "182": {
@@ -2786,6 +2968,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "41.829144935152",
     "Longitude": "-74.219986229365",
+    "ID": "Accord_Speedway",
     "Races": "1"
   },
   "183": {
@@ -2803,6 +2986,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.0653181455701",
     "Longitude": "-77.4524902668935",
+    "ID": "Clinton_County_Speedway",
     "Races": "1"
   },
   "184": {
@@ -2819,6 +3003,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "36.142559719319",
     "Longitude": "-81.072399491873",
+    "ID": "North_Wilkesboro_Speedway",
     "Races": "1"
   },
   "185": {
@@ -2836,6 +3021,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "36.0827083481516",
     "Longitude": "-80.2220055528193",
+    "ID": "Bowman_Gray_Stadium",
     "Races": "1"
   },
   "186": {
@@ -2853,6 +3039,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "44.0388605887536",
     "Longitude": "-69.6588949122878",
+    "ID": "Wiscasset_Speedway",
     "Races": "1"
   },
   "187": {
@@ -2869,6 +3056,7 @@ const trackDataString =
     "Place": "Street",
     "Latitude": "41.8732786482641",
     "Longitude": "-87.6206507160898",
+    "ID": "Chicago_Street_Course",
     "Races": "1"
   },
   "188": {
@@ -2886,6 +3074,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.3636111699981",
     "Longitude": "-89.0176889545391",
+    "ID": "Rockford_Speedway",
     "Races": "1"
   },
   "189": {
@@ -2901,6 +3090,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Character": "A Lot of Character",
     "Parent Track": "What Cheer Raceway",
+    "ID": "What_Cheer_Raceway_[Dirt_Oval]",
     "Races": "1"
   },
   "190": {
@@ -2917,6 +3107,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.4095401551561",
     "Longitude": "-92.3501225406632",
+    "ID": "What_Cheer_Raceway",
     "Races": "1"
   },
   "191": {
@@ -2934,6 +3125,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.4813372108022",
     "Longitude": "-91.8930712905105",
+    "ID": "Independence_Motor_Speedway",
     "Races": "1"
   },
   "192": {
@@ -2950,6 +3142,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.2537863736406",
     "Longitude": "-88.6392561914229",
+    "ID": "Farmer_City_Raceway",
     "Races": "1"
   },
   "193": {
@@ -2967,6 +3160,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "43.1852058867595",
     "Longitude": "-72.2044859113491",
+    "ID": "NHMX_Flat_Track",
     "Races": "1"
   },
   "194": {
@@ -2984,6 +3178,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.0530274224296",
     "Longitude": "-75.511114113931",
+    "ID": "Pocono_Raceway",
     "Races": "1"
   },
   "195": {
@@ -2999,6 +3194,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.023715070945",
     "Longitude": "-78.5206198612763",
+    "ID": "Bedford_Fairgrounds_Speedway",
     "Races": "1"
   },
   "196": {
@@ -3014,6 +3210,7 @@ const trackDataString =
     "Place": "Field",
     "Latitude": "40.752060612261",
     "Longitude": "-76.7498442827175",
+    "ID": "Big_Al's_Race_Track",
     "Races": "1"
   },
   "197": {
@@ -3028,6 +3225,7 @@ const trackDataString =
     "Place": "Fair",
     "Latitude": "39.4413898427331",
     "Longitude": "-77.9137142031628",
+    "ID": "Berkeley_County_Fairgrounds",
     "Races": "1"
   },
   "198": {
@@ -3044,6 +3242,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.1322716813865",
     "Longitude": "-78.1331216774041",
+    "ID": "Winchester_Speedway",
     "Races": "1"
   },
   "199": {
@@ -3059,6 +3258,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "40.5212014869911",
     "Longitude": "-75.6895618671869",
+    "ID": "Oreville_Kart_Club",
     "Races": "1"
   },
   "200": {
@@ -3074,6 +3274,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "41.0252699304842",
     "Longitude": "-76.000453128114",
+    "ID": "Evergreen_Raceway",
     "Races": "1"
   },
   "201": {
@@ -3089,6 +3290,7 @@ const trackDataString =
     "Place": "Fair",
     "Latitude": "42.0988191622504",
     "Longitude": "-70.7162934982453",
+    "ID": "Marshfield_Fair",
     "Races": "1"
   },
   "202": {
@@ -3105,6 +3307,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "44.6119327344562",
     "Longitude": "-69.3496438022345",
+    "ID": "Unity_Raceway",
     "Races": "1"
   },
   "203": {
@@ -3120,6 +3323,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Thompson Speedway",
+    "ID": "Thompson_Speedway_[Asphalt_Road_Course]",
     "Races": "1"
   },
   "204": {
@@ -3136,6 +3340,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "32.7379706162804",
     "Longitude": "-96.5276391590924",
+    "ID": "Devil's_Bowl_Speedway_(TX)",
     "Races": "1"
   },
   "205": {
@@ -3149,6 +3354,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Hudson Speedway",
+    "ID": "Hudson_Speedway_[Asphalt_Figure-8]",
     "Races": "1"
   },
   "206": {
@@ -3165,6 +3371,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "37.9384548724623",
     "Longitude": "-121.261978101818",
+    "ID": "Stockton_Dirt_Track",
     "Races": "1"
   },
   "207": {
@@ -3180,6 +3387,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "34.5223221509007",
     "Longitude": "-117.311235918136",
+    "ID": "SBC_Fairgrounds",
     "Races": "1"
   },
   "208": {
@@ -3193,6 +3401,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Wild Horse Pass Motorsports Park",
+    "ID": "Wild_Horse_Pass_Motorsports_Park_[Mixed_Full_Course]",
     "Races": "1"
   },
   "209": {
@@ -3206,6 +3415,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Wild Horse Pass Motorsports Park",
+    "ID": "Wild_Horse_Pass_Motorsports_Park_[Mixed_Short_Course]",
     "Races": "1"
   },
   "210": {
@@ -3222,6 +3432,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "32.8705170631656",
     "Longitude": "-111.57081038944",
+    "ID": "Central_Arizona_Raceway",
     "Races": "1"
   },
   "211": {
@@ -3238,6 +3449,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "32.8165317597523",
     "Longitude": "-111.832851496199",
+    "ID": "Podium_Club_at_Attesa_(Full)",
     "Races": "1"
   },
   "212": {
@@ -3253,6 +3465,7 @@ const trackDataString =
     "Place": "Motocross",
     "Latitude": "33.6965018554679",
     "Longitude": "-114.60617378652",
+    "ID": "Shorty's_Sports_Park",
     "Races": "1"
   },
   "213": {
@@ -3269,6 +3482,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "38.7261617914795",
     "Longitude": "-120.832274490763",
+    "ID": "Placerville_Speedway",
     "Races": "1"
   },
   "214": {
@@ -3285,6 +3499,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "37.2911134785598",
     "Longitude": "-120.482490466735",
+    "ID": "Merced_Speedway",
     "Races": "1"
   },
   "215": {
@@ -3301,6 +3516,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.2640599819706",
     "Longitude": "-115.019403664406",
+    "ID": "The_Bullring",
     "Races": "1"
   },
   "216": {
@@ -3316,6 +3532,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "36.2675656820633",
     "Longitude": "-115.017047456889",
+    "ID": "Las_Vegas_Motor_Speedway_Outfield_Road_Course",
     "Races": "1"
   },
   "217": {
@@ -3331,6 +3548,7 @@ const trackDataString =
     "Place": "Arena",
     "Latitude": "43.6559481355868",
     "Longitude": "-116.671905311767",
+    "ID": "Caldwell_Indoor_Speedway",
     "Races": "1"
   },
   "218": {
@@ -3347,6 +3565,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "29.9940402718067",
     "Longitude": "-82.6118136821336",
+    "ID": "All-Tech_Raceway",
     "Races": "1"
   },
   "219": {
@@ -3363,6 +3582,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "36.1106317636384",
     "Longitude": "-115.16586137726",
+    "ID": "Nitrodome_at_Planet_Hollywood",
     "Races": "1"
   },
   "220": {
@@ -3379,6 +3599,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "33.0330202951979",
     "Longitude": "-97.2741528032076",
+    "ID": "Texas_Motor_Speedway_Dirt_Track",
     "Races": "1"
   },
   "221": {
@@ -3394,6 +3615,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "33.367154279599",
     "Longitude": "-97.4294094962361",
+    "ID": "Eagle_Canyon_Raceway",
     "Races": "1"
   },
   "222": {
@@ -3410,6 +3632,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.1943494883486",
     "Longitude": "-94.801001459175",
+    "ID": "Lakeside_Speedway",
     "Races": "1"
   },
   "223": {
@@ -3426,6 +3649,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "38.9828948793935",
     "Longitude": "-93.4163032998829",
+    "ID": "Sweet_Springs_Motorsports_Complex",
     "Races": "1"
   },
   "224": {
@@ -3442,6 +3666,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.8991596291346",
     "Longitude": "-79.2001775285694",
+    "ID": "Humberstone_Speedway",
     "Races": "1"
   },
   "225": {
@@ -3458,6 +3683,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "39.1320040802686",
     "Longitude": "-85.2982466195092",
+    "ID": "Ripley_County_Fairgrounds",
     "Races": "1"
   },
   "226": {
@@ -3475,6 +3701,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "38.8694704416874",
     "Longitude": "-86.0292381889751",
+    "ID": "Brownstown_Speedway",
     "Races": "1"
   },
   "227": {
@@ -3492,6 +3719,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "39.4205296084158",
     "Longitude": "-87.4207156301518",
+    "ID": "Terre_Haute_Action_Track",
     "Races": "1"
   },
   "228": {
@@ -3508,6 +3736,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "38.2696195323301",
     "Longitude": "-90.4017250550639",
+    "ID": "Federated_Auto_Parts_Raceway_at_I-55",
     "Races": "1"
   },
   "229": {
@@ -3524,6 +3753,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "42.4653488798203",
     "Longitude": "-71.6593508718243",
+    "ID": "Bolton_Fairgrounds",
     "Races": "1"
   },
   "230": {
@@ -3537,6 +3767,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Fair",
     "Parent Track": "Bolton Fairgrounds",
+    "ID": "Bolton_Fairgrounds_[Dirt_Oval]",
     "Races": "1"
   },
   "231": {
@@ -3552,6 +3783,7 @@ const trackDataString =
     "Place": "Motocross",
     "Latitude": "43.0264858986525",
     "Longitude": "-71.0286482554785",
+    "ID": "MX101",
     "Races": "1"
   },
   "232": {
@@ -3569,6 +3801,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "43.0208682880106",
     "Longitude": "-88.0115438174741",
+    "ID": "The_Milwaukee_Mile",
     "Races": "1"
   },
   "233": {
@@ -3586,6 +3819,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "43.0046355149073",
     "Longitude": "-88.9365022334165",
+    "ID": "Jefferson_Speedway",
     "Races": "1"
   },
   "234": {
@@ -3599,6 +3833,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Jefferson Speedway",
+    "ID": "Jefferson_Speedway_[Inner_Asphalt_Oval]",
     "Races": "1"
   },
   "235": {
@@ -3616,6 +3851,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "43.1779187716092",
     "Longitude": "-89.2116509921928",
+    "ID": "Angell_Park_Speedway",
     "Races": "1"
   },
   "236": {
@@ -3631,6 +3867,7 @@ const trackDataString =
     "Place": "Motocross",
     "Latitude": "42.1504131505529",
     "Longitude": "-72.0207285932911",
+    "ID": "508_International",
     "Races": "1"
   },
   "237": {
@@ -3648,6 +3885,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "38.3138310055958",
     "Longitude": "-85.7553740772788",
+    "ID": "Sportsdrome_Speedway",
     "Races": "1"
   },
   "238": {
@@ -3661,6 +3899,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Sportsdrome Speedway",
+    "ID": "Sportsdrome_Speedway_[Asphalt_Figure-8]",
     "Races": "1"
   },
   "239": {
@@ -3677,6 +3916,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "36.0461982049058",
     "Longitude": "-86.4078326926368",
+    "ID": "Nashville_Superspeedway",
     "Races": "1"
   },
   "240": {
@@ -3693,6 +3933,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "35.4905088994968",
     "Longitude": "-119.544469698568",
+    "ID": "Buttonwillow_Raceway_Park",
     "Races": "1"
   },
   "241": {
@@ -3708,6 +3949,7 @@ const trackDataString =
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Parent Track": "Kern County Raceway Park",
+    "ID": "Kern_County_Raceway_Park_[Inner_Asphalt_Oval]",
     "Races": "1"
   },
   "242": {
@@ -3725,6 +3967,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "36.1989520979928",
     "Longitude": "-119.342143926938",
+    "ID": "Tulare_Thunderbowl_Raceway",
     "Races": "1"
   },
   "243": {
@@ -3742,6 +3985,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "36.1101483616748",
     "Longitude": "-115.162435343341",
+    "ID": "Las_Vegas_Strip_Circuit",
     "Races": "1"
   },
   "244": {
@@ -3758,6 +4002,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "43.2186406589631",
     "Longitude": "-71.2588612306739",
+    "ID": "Northwood_Lake",
     "Races": "1"
   },
   "245": {
@@ -3774,6 +4019,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "41.4839060712935",
     "Longitude": "-71.5379659462606",
+    "ID": "Boss_Ice_Arena",
     "Races": "1"
   },
   "246": {
@@ -3791,6 +4037,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "34.9747430079001",
     "Longitude": "-79.6105340258782",
+    "ID": "Rockingham_Speedway",
     "Races": "1"
   },
   "247": {
@@ -3808,6 +4055,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "35.7005238232097",
     "Longitude": "-78.6755465894442",
+    "ID": "Wake_County_Speedway",
     "Races": "1"
   },
   "248": {
@@ -3825,6 +4073,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "34.9982773750195",
     "Longitude": "-79.0679689382029",
+    "ID": "Rockfish_Speedway",
     "Races": "1"
   },
   "249": {
@@ -3841,6 +4090,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.7630653976643",
     "Longitude": "-94.3497065960599",
+    "ID": "US_36_Raceway",
     "Races": "1"
   },
   "250": {
@@ -3856,6 +4106,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.1163665258827",
     "Longitude": "-94.8323083100416",
+    "ID": "Kansas_Speedway",
     "Races": "1"
   },
   "251": {
@@ -3872,6 +4123,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "39.9008348636037",
     "Longitude": "-94.1449932173856",
+    "ID": "I-35_Speedway",
     "Races": "1"
   },
   "252": {
@@ -3888,6 +4140,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Latitude": "38.6342893163215",
     "Longitude": "-92.6239353834345",
+    "ID": "Double_X_Speedway_",
     "Races": "1"
   },
   "253": {
@@ -3904,6 +4157,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "39.794538332649",
     "Longitude": "-86.2347674604083",
+    "ID": "Indianapolis_Motor_Speedway",
     "Races": "1"
   },
   "254": {
@@ -3920,6 +4174,7 @@ const trackDataString =
     "Character": "Oozing with Character",
     "Latitude": "39.9095970813517",
     "Longitude": "-85.4608215525723",
+    "ID": "Mt._Lawn_Speedway",
     "Races": "1"
   },
   "255": {
@@ -3937,6 +4192,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "40.0885853760536",
     "Longitude": "-85.6964553852399",
+    "ID": "Anderson_Speedway",
     "Races": "1"
   },
   "256": {
@@ -3954,6 +4210,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "39.2033193658642",
     "Longitude": "-83.0208658293091",
+    "ID": "Atomic_Speedway",
     "Races": "1"
   },
   "257": {
@@ -3970,6 +4227,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.9275223631037",
     "Longitude": "-73.3828656196414",
+    "ID": "Lime_Rock_Park",
     "Races": "1"
   },
   "258": {
@@ -3987,6 +4245,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "43.4570100815123",
     "Longitude": "-76.4815814518617",
+    "ID": "Oswego_Speedway",
     "Races": "1"
   },
   "259": {
@@ -4004,6 +4263,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "41.0758310613885",
     "Longitude": "-83.7298279137669",
+    "ID": "Millstream_Speedway",
     "Races": "1"
   },
   "260": {
@@ -4021,6 +4281,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "45.7833201453487",
     "Longitude": "-111.142484162279",
+    "ID": "Gallatin_Speedway",
     "Races": "1"
   },
   "261": {
@@ -4038,6 +4299,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "47.5306684063016",
     "Longitude": "-111.283699842237",
+    "ID": "Electric_City_Speedway",
     "Races": "1"
   },
   "262": {
@@ -4055,6 +4317,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "43.426988352916",
     "Longitude": "-96.1616174639195",
+    "ID": "Rapid_Speedway",
     "Races": "1"
   },
   "263": {
@@ -4072,6 +4335,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.0716360584841",
     "Longitude": "-90.6491483192406",
+    "ID": "Maquoketa_Speedway",
     "Races": "1"
   },
   "264": {
@@ -4089,6 +4353,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "42.484018454553",
     "Longitude": "-90.773263730466",
+    "ID": "Dubuque_Speedway",
     "Races": "1"
   },
   "265": {
@@ -4106,6 +4371,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "39.799215193",
     "Longitude": "-86.2322795141511",
+    "ID": "The_Dirt_Track_at_Indianapolis_Motor_Speedway",
     "Races": "1"
   },
   "266": {
@@ -4123,6 +4389,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "40.7648805619728",
     "Longitude": "-86.5049505403721",
+    "ID": "US_24_Speedway",
     "Races": "1"
   },
   "267": {
@@ -4140,6 +4407,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "44.9684368095229",
     "Longitude": "-74.7075433774503",
+    "ID": "Mohawk_International_Raceway",
     "Races": "1"
   },
   "268": {
@@ -4156,6 +4424,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "41.9126027849464",
     "Longitude": "-70.817833125361",
+    "ID": "Capeway_Rovers",
     "Races": "1"
   },
   "269": {
@@ -4171,6 +4440,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "42.3252744141731",
     "Longitude": "-72.6202514968495",
+    "ID": "Three_County_Fair",
     "Races": "1"
   },
   "270": {
@@ -4187,6 +4457,7 @@ const trackDataString =
     "Character": "Decent Character",
     "Latitude": "41.6272287899173",
     "Longitude": "-72.7270212450745",
+    "ID": "Berlin_Fair",
     "Races": "1"
   },
   "271": {
@@ -4204,6 +4475,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.9349028396631",
     "Longitude": "-91.680714682455",
+    "ID": "Hawkwye_Downs_Speedway_(Dirt)",
     "Races": "1"
   },
   "272": {
@@ -4221,6 +4493,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "39.5080866513547",
     "Longitude": "-88.270485583153",
+    "ID": "Cole's_County_Speedway",
     "Races": "1"
   },
   "273": {
@@ -4236,6 +4509,7 @@ const trackDataString =
     "Place": "Racetrack",
     "Character": "Decent Character",
     "Parent Track": "Glen Helen Raceway",
+    "ID": "Glen_Helen_Raceway_[Dirt]",
     "Races": "1"
   },
   "274": {
@@ -4253,6 +4527,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "35.2954510901183",
     "Longitude": "-119.256838121985",
+    "ID": "Bakersfield_Speedway_at_Kevin_Harvick's_Kern_Raceway",
     "Races": "1"
   },
   "275": {
@@ -4269,6 +4544,7 @@ const trackDataString =
     "Character": "Minimal Character",
     "Latitude": "43.3225290218915",
     "Longitude": "-73.8367440728221",
+    "ID": "Lake_Luzerne",
     "Races": "1"
   }
 }
