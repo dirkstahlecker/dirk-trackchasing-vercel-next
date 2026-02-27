@@ -1,9 +1,8 @@
 'use client'
 
-import "./App.css";
-import 'react-tabs/style/react-tabs.css';
-import App from "./App";
+import "./Header.css"
+import Header from "./Header";
 
 export default function Home() {
-  return <App/>
+  return <div></div>
 }

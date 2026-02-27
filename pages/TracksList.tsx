@@ -1,13 +1,13 @@
 'use client'
 
-import { TrackRecord } from "../TrackData"
-import { makeKey, printDate } from "../Utils"
+import { TrackRecord } from "../app/TrackData"
+import { makeKey, printDate } from "../app/Utils"
 
 export interface TracksListProps {
   tracksArray: {trackInfo: TrackRecord, trackNum: number}[]
 }
 
-export function TracksList(props: TracksListProps) {
+export default function TracksList(props: TracksListProps) {
   return (
       <div className="tracks-container">
       <div style={{textAlign: "left"}}>

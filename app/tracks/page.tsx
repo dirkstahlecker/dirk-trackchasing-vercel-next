@@ -2,11 +2,12 @@
 
 import "./Tracks.css"
 import { getTrackDataJson, TrackRecord } from "../TrackData"
-import { TracksList } from "./TracksList"
 import { useState } from "react"
-import { TrackPage } from "./TrackPage"
+import { TrackPage } from "./SingleTrack"
+import TracksList from "@/pages/TracksList"
+import Header from "../Header"
 
-export function TracksTab() {
+export default function TracksTab() {
   const tracksArray: {trackInfo: TrackRecord, trackNum: number}[] = []
   getTrackDataJson().forEach((trackInfo: TrackRecord, trackNum: number) => {
     tracksArray.push({trackInfo, trackNum})
