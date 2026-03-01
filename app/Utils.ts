@@ -1,5 +1,6 @@
 'use client'
 
+import { decode } from "punycode";
 import { getTrackDataJson, TrackRecord } from "./TrackData";
 
 export function printNameAndDate(nameIn: string, dateIn: string) {
@@ -40,6 +41,7 @@ export function trackIdToTrackRecord(trackId: string | undefined): TrackRecord |
   if (trackId === undefined) {
     return null;
   }
+  trackId = decodeURI(trackId)
   const trackData = getTrackDataJson();
   let foundTrack: TrackRecord | null = null;
   trackData.forEach((track: TrackRecord) => {
