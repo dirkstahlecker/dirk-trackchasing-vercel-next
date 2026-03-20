@@ -15,8 +15,6 @@ export function SingleTrack(props: SingleTrackProps) {
     return <>Cannot locate track</>
   }
 
-  console.log("CLICK ON SINGLETRACK " + track.Track)
-
   const lengthString: string | null = track.Length !== "" ? track.Length + " Mile " : "";
 
   return <div>

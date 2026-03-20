@@ -1,8 +1,8 @@
 'use client'
 
 import "./Header.css"
-import Header from "./Header";
+import { RacesTab } from "./races/RacesTab"
 
 export default function Home() {
-  return <div></div>
+  return <RacesTab/>
 }

@@ -1,3 +1,8 @@
-link to configs isn't working
 
 min height to take up the full height of the screen
+
+what to do if date isn't known
+better design on configurations in tooltip
+
+
+picture of track on google maps on the track page?

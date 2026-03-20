@@ -141,7 +141,7 @@ function renderMarkers() {
                 {
                 marker.configs.map((config: any) => {
                   return <React.Fragment key={`${config.name}${config.date}`}>
-                    <br/>&nbsp;&nbsp;{printDate(config.date)}: <Link href={`/tracks/${config.ID}`}>{config.name}</Link>
+                    <br/>{printDate(config.date)}: <Link href={`/tracks/${config.ID}`}>{config.name}</Link>
                   </React.Fragment>
                 })
                 }
