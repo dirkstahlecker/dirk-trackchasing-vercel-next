@@ -2,6 +2,7 @@ import React from "react"
 import { makeKey, printDate, printNameAndDate } from "./Utils"
 import { getTrackDataJson, TrackRecord } from "./TrackData"
 import Link from "next/link"
+import { Tooltip } from "react-leaflet/Tooltip"
 
 let MapContainer: any
 let TileLayer: any
@@ -131,6 +132,7 @@ function renderMarkers() {
         icon={icon}
         key={`${marker.name}${marker.lat}${marker.long}`}
       >
+        <Tooltip>{marker.name}</Tooltip>
         <Popup>
           {printDate(marker.date)}: <Link href={`/tracks/${marker.ID}`}>{marker.name}</Link>
           {

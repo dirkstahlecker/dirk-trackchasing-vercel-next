@@ -14,7 +14,11 @@ export interface AppProps {
 enum CurrentTab {RACES = "/races", TRACKS = "/tracks", RECAPS = "/recaps", FLIPS = "/flips"}
 
 export default function Header(props: AppProps) {
-  const currentPath = usePathname();
+  let currentPath = usePathname();
+  if (currentPath === "/")
+  {
+    currentPath = CurrentTab.RACES
+  }
 
   return (<>
     <div className="App box">

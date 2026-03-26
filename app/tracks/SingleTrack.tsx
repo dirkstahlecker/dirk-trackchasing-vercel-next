@@ -1,5 +1,6 @@
 'use client'
 
+import { flips, TrackVideo } from "../flips/FlipData";
 import { LeafletMap } from "../Map";
 import { TrackRecord } from "../TrackData";
 import { printDate, trackIdToTrackRecord } from "../Utils";
@@ -24,7 +25,22 @@ export function SingleTrack(props: SingleTrackProps) {
     <br/>
     First Visit: {printDate(track.Date)}
 
-    {/* <SingleTrackMap lat={0} long={9}/> */}
+    <br/>
+    <br/>
+    Flips:
+    <>
+    {
+      flips.map((flip: TrackVideo) => {
+        if (flip.track === track.Track)
+        {
+          return <>
+            <br/>
+            <a href={flip.url}>{flip.num}: {flip.track}</a>
+          </>
+        }
+      })
+    }
+    </>
 
     <br/>
     <br/>

@@ -1,14 +1,15 @@
 .tracks-container {
   width: 60%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
 }
 
 .tracks-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60px 120px 1fr 80px; /* adjust as needed */
+  gap: 10px;
+  align-items: center;
 }
 
 .tracks-column {
-  padding: 10px;
+  padding: 10px 0;
 }
