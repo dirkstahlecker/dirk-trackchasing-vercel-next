@@ -1,11 +1,11 @@
 'use client'
 
-import { flips, TrackVideo } from "./FlipData"
+import { FlipsData, TrackVideo } from "./FlipData"
 
 //flip videos are on TrackchaserDirk youtube account
 
 export default function FlipsTab() {
-  return flips.map((value: TrackVideo) => {
+  return FlipsData.map((value: TrackVideo) => {
     return <>
       <a href={value.url}>{value.num}: {value.track}</a>
       <br/>

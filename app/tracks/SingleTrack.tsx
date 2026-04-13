@@ -1,6 +1,6 @@
 'use client'
 
-import { flips, TrackVideo } from "../flips/FlipData";
+import { FlipsData, TrackVideo } from "../flips/FlipData";
 import { LeafletMap } from "../Map";
 import { TrackRecord } from "../TrackData";
 import { printDate, trackIdToTrackRecord } from "../Utils";
@@ -30,12 +30,19 @@ export function SingleTrack(props: SingleTrackProps) {
     Flips:
     <>
     {
-      flips.map((flip: TrackVideo) => {
+      FlipsData.map((flip: TrackVideo) => {
         if (flip.track === track.Track)
         {
           return <>
             <br/>
-            <a href={flip.url}>{flip.num}: {flip.track}</a>
+            <a href={flip.url}>
+              {flip.num}
+              &nbsp;
+              {
+                flip.notes?.map((note: string, index: number, array: string[]) => 
+                  <>{`(${note})${index < array.length - 1 ? ", " : ""}`}</>)
+              }
+            </a>
           </>
         }
       })
