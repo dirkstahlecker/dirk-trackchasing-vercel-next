@@ -1,7 +1,6 @@
 'use client'
 
 import { FlipsData, TrackVideo } from "../flips/FlipData";
-import { LeafletMap } from "../Map";
 import { TrackRecord } from "../TrackData";
 import { printDate, trackIdToTrackRecord } from "../Utils";
 import { SingleTrackMap } from "./[trackId]/SingleTrackMap";

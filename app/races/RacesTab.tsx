@@ -1,9 +1,24 @@
 'use client'
 
 import { JSX } from 'react';
-import { LeafletMap } from '../Map';
 import { getTrackDataJson, TrackRecord } from '../TrackData';
 import { getLastTrack, printNameAndDate } from '../Utils';
+import dynamic from "next/dynamic"
+
+// Dynamically import with SSR disabled to avoid window not found error
+const LeafletMap = dynamic(
+  () => import("../Map").then((mod) => mod.LeafletMap),
+  { ssr: false }
+)
+
+export default function MapPage() {
+  return (
+    <div>
+      <h1>My Map</h1>
+      <LeafletMap />
+    </div>
+  )
+}
 
 export function RacesTab() {
   return <div>
