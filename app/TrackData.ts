@@ -29,8 +29,7 @@ export class TrackRecord {
 //Copied directly from the Track Order sheet using the export to json extension
 //Dates are reformatted via a print function
 const trackDataString =
-`
-{
+`{
   "1": {
     "Track": "The Dirt Track at Las Vegas Motor Speedway",
     "Date": "2000-03-03T05:00:00.000Z",
@@ -2443,6 +2442,7 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Parent Track": "Indianapolis Motor Speedway",
     "Latitude": "39.7951021823793",
     "Longitude": "-86.2347219896014",
     "ID": "Indianapolis_Motor_Speedway_Road_Course",
@@ -2743,6 +2743,7 @@ const trackDataString =
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/1A6k_BbogDCK78ghXmDK9Ivq99A5Y6grRaJMy-phA0LI/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -2809,6 +2810,7 @@ const trackDataString =
     "City": "Clearwater",
     "Type": "Figure 8",
     "Surface": "Asphalt",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -3086,6 +3088,7 @@ const trackDataString =
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.1",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -3594,6 +3597,7 @@ const trackDataString =
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.4",
+    "Recap": "https://docs.google.com/document/d/1WvhQyiHMrfwD395XJgSzn4tHbpAgegDWrq0YayNIv_s/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -3764,6 +3768,7 @@ const trackDataString =
     "City": "Lancaster",
     "Type": "Oval",
     "Surface": "Dirt",
+    "Recap": "-",
     "Status": "Temporary",
     "Setting": "Outdoor",
     "Place": "Fair",
@@ -3830,6 +3835,7 @@ const trackDataString =
     "City": "Cambridge",
     "Type": "Oval",
     "Surface": "Asphalt",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -3896,6 +3902,7 @@ const trackDataString =
     "City": "Clarksville",
     "Type": "Figure 8",
     "Surface": "Asphalt",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -4462,7 +4469,7 @@ const trackDataString =
     "Races": "1"
   },
   "271": {
-    "Track": "Hawkwye Downs Speedway (Dirt)",
+    "Track": "Hawkweye Downs Speedway (Dirt)",
     "Date": "2025-09-27T04:00:00.000Z",
     "State": "IA",
     "City": "Cedar Rapids",
@@ -4476,7 +4483,7 @@ const trackDataString =
     "Character": "A Lot of Character",
     "Latitude": "41.9349028396631",
     "Longitude": "-91.680714682455",
-    "ID": "Hawkwye_Downs_Speedway_(Dirt)",
+    "ID": "Hawkweye_Downs_Speedway_(Dirt)",
     "Races": "1"
   },
   "272": {
@@ -4547,9 +4554,23 @@ const trackDataString =
     "Longitude": "-73.8367440728221",
     "ID": "Lake_Luzerne",
     "Races": "1"
+  },
+  "276": {
+    "Track": "Airborne Park Speedway",
+    "Date": "2026-04-26T04:00:00.000Z",
+    "State": "NY",
+    "City": "Plattsburgh",
+    "Type": "Oval",
+    "Surface": "Dirt",
+    "Length": "0.4",
+    "Recap": "https://docs.google.com/document/d/1FCefBOMVOMHILHuA0vXgzd_SQZhVh8QRVwbRPjV1ilw/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "ID": "Airborne_Park_Speedway",
+    "Races": "1"
   }
-}
-`
+}`
 
 //track number -> TrackRecord
 export const getTrackDataJson = (): Map<number, TrackRecord> => {

@@ -1,8 +1,10 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { makeKey, printDate, printNameAndDate } from "./Utils"
 import { getTrackDataJson, TrackRecord } from "./TrackData"
 import Link from "next/link"
 import { Tooltip } from "react-leaflet/Tooltip"
+import { useMap } from "react-leaflet"
+import L from "leaflet";
 
 let MapContainer: any
 let TileLayer: any
@@ -51,6 +53,7 @@ export class LeafletMap extends React.Component {
           zoom={4}
           style={{ height: '500px', width: '100%' }}
         >
+          <MapLegend />
           <TileLayer
             attribution='&copy; OpenStreetMap contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -61,6 +64,40 @@ export class LeafletMap extends React.Component {
       : (null)
     )
    }
+}
+
+function MapLegend() {
+  const map = useMap();
+
+  useEffect(() => {
+    const legend = new L.Control({ position: 'bottomright' });
+
+    legend.onAdd = () => {
+      const div = L.DomUtil.create("div", "info legend");
+      div.style.backgroundColor = "white";
+      div.style.color = "black";
+      div.style.padding = "10px";
+      div.style.display = "flex";
+      div.style.flexDirection = "column";
+      div.style.width = "150px";
+
+      div.innerHTML = `
+        Legend
+        <div><div style="background: #00F; width: 18px; height: 18px; display: inline-block;"></div> Oval</div>
+        <div><div style="background: #F00; width: 18px; height: 18px; display: inline-block;"></div> Road Course</div>
+        <div><div style="background: #0F0; width: 18px; height: 18px; display: inline-block;"></div> Figure-8</div>
+      `;
+      return div;
+    };
+
+    legend.addTo(map);
+
+    return () => {
+      legend.remove();
+    };
+  }, [map]);
+
+  return null;
 }
 
 //TODO: rewrite using actual objects

@@ -15,6 +15,7 @@ export default function TracksList(props: TracksListProps) {
           {props.tracksArray.map((track: {trackInfo: TrackRecord, trackNum: number}) => {
             return <div className="tracks-row" key={makeKey(track.trackInfo)}>
               <div className="tracks-column">{track.trackNum}</div>
+              <div className="tracks-column">{track.trackInfo.State}</div>
               <div className="tracks-column">
                 {
                   track.trackInfo.Date != undefined && track.trackInfo.Date !== "" &&

@@ -5,7 +5,7 @@
 
 .tracks-row {
   display: grid;
-  grid-template-columns: 60px 120px 1fr 80px; /* adjust as needed */
+  grid-template-columns: 30px 30px 120px 1fr 80px; /* adjust as needed */
   gap: 10px;
   align-items: center;
 }

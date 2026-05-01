@@ -22,7 +22,7 @@ export default function Header(props: AppProps) {
 
   return (<>
     <div className="App box">
-      <h1>Dirk Trackchasing</h1>
+      <h1>Dirk Stahlecker - Trackchaser</h1>
 
       <p>Visit my official Trackchasers page&nbsp;
         <a href="http://www.roamingtheraceways.com/overall_individual.php?cid=303" 
@@ -32,6 +32,7 @@ export default function Header(props: AppProps) {
           here
         </a>
       </p>
+      <br/>
       
       {/* <Tabs>
         <TabList>

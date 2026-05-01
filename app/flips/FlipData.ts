@@ -5,6 +5,8 @@ export interface TrackVideo {
   notes?: string[];
 }
 
+//TODO: how to deal with num for multiple flips in one
+
 //TODO: track names aren't going to always match here
 export const FlipsData: TrackVideo[] = [
   { num: 22, track: "Seekonk Speedway", url: "https://youtu.be/a1qwU1SYpYk" },
@@ -100,7 +102,6 @@ export const FlipsData: TrackVideo[] = [
   { num: 244, track: "Huset's Speedway", url: "https://youtu.be/fv3YsBS25rQ" },
   { num: 245, track: "Huset's Speedway", url: "https://youtu.be/LoCmHwDYtKs" },
   { num: 246, track: "Huset's Speedway", url: "https://youtu.be/9zPX3AncZaM" },
-  { num: 246, track: "Huset's Speedway", url: "https://youtu.be/gwtxNvxleQc" },
   { num: 247, track: "Huset's Speedway", url: "https://youtu.be/xWSclvr5i5w" },
   { num: 252, track: "Arizona Speedway", url: "https://youtu.be/sCLj5vQGiDU" },
   { num: 254, track: "Arizona Speedway", url: "https://youtu.be/Q5ZcjRDbNYo" },
