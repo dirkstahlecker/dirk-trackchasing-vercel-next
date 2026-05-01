@@ -4567,6 +4567,9 @@ const trackDataString =
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
+    "Latitude": "44.633580475789664",
+    "Longitude": -73.4984634227316",
     "ID": "Airborne_Park_Speedway",
     "Races": "1"
   }
