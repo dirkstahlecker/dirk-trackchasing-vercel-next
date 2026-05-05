@@ -26,9 +26,11 @@ export function SingleTrack(props: SingleTrackProps) {
 
     <br/>
     <br/>
-    Flips:
-    <>
     {
+      FlipsData.filter((flip: TrackVideo) => flip.track === track.Track).length > 0 &&
+      <>Flips:</>
+    }
+    <>{
       FlipsData.map((flip: TrackVideo) => {
         if (flip.track === track.Track)
         {
@@ -45,8 +47,7 @@ export function SingleTrack(props: SingleTrackProps) {
           </>
         }
       })
-    }
-    </>
+    }</>
 
     <br/>
     <br/>
