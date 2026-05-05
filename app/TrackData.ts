@@ -4572,6 +4572,23 @@ const trackDataString =
     "Longitude": "-73.4984634227316",
     "ID": "Airborne_Park_Speedway",
     "Races": "1"
+  },
+  "277": {
+    "Track": "Crow Hill MX Park",
+    "Date": "2026-05-02T04:00:00.000Z",
+    "State": "MA",
+    "City": "Templeton",
+    "Type": "Road Course",
+    "Surface": "Dirt",
+    "Recap": "https://docs.google.com/document/d/1qvCtIMtNyaP0AQbR9_BeeZaIYBkGqc3xGKcpNdBH3RU/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Motocross",
+    "Character": "A Lot of Character",
+    "Latitude": "42.5815297928571",
+    "Longitude": "-72.094164939384",
+    "ID": "Crow_Hill_MX_Park",
+    "Races": "1"
   }
 }`
 
