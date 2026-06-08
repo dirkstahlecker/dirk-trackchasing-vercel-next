@@ -54,7 +54,7 @@ export function SingleTrack(props: SingleTrackProps) {
     {
       track.Recap &&
       //832 is apparently the width of the doc, can't make it larger
-      <iframe src={track.Recap} style={{width: "832px", height: "80vh"}}/>
+      <iframe src={track.Recap} style={{width: "832px", height: "90vh"}}/>
     }
   </div>
 }
