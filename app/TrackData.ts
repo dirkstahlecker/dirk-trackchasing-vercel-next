@@ -4912,6 +4912,7 @@ const trackDataString =
     "Type": "Oval",
     "Surface": "Asphalt",
     "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/14X4kwGoT94lwofDuowJ7ABmzhKyYovun38nM9XtkDIg/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
