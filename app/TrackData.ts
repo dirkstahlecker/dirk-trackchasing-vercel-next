@@ -29,8 +29,8 @@ export class TrackRecord {
 //This needs to be updated with each new track added
 //Copied directly from the Track Order sheet using the export to json extension
 //Dates are reformatted via a print function
-const trackDataString =
-`{
+const trackDataString = `
+{
   "1": {
     "Track": "The Dirt Track at Las Vegas Motor Speedway",
     "Date": "2000-03-03T05:00:00.000Z",
@@ -4921,8 +4921,65 @@ const trackDataString =
     "Longitude": "0.22799983206442",
     "ID": "Arlington_Stadium",
     "Races": "1"
+  },
+  "281": {
+    "Track": "Watsonville Speedway",
+    "Date": "2026-06-12T04:00:00.000Z",
+    "State": "CA",
+    "City": "Interlaken",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Dirt",
+    "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/17SJpKuWd6emv9WO8acHmlNCL_rpSG68iKhBaIYUqElY/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "A Lot of Character",
+    "Latitude": "36.9519857058049",
+    "Longitude": "-121.733716879618",
+    "ID": "Watsonville_Speedway",
+    "Races": "1"
+  },
+  "282": {
+    "Track": "Petaluma Speedway",
+    "Date": "2026-06-13T04:00:00.000Z",
+    "State": "CA",
+    "City": "Petaluma",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Dirt",
+    "Length": "0.375",
+    "Recap": "https://docs.google.com/document/d/1uEDqtMo7brrHbeSNYmJ816nI8DIAZll-6gR-JDvIsco/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "Decent Character",
+    "Latitude": "38.2416394722235",
+    "Longitude": "-122.62689304695",
+    "ID": "Petaluma_Speedway",
+    "Races": "1"
+  },
+  "283": {
+    "Track": "Salinas Sports Complex",
+    "Date": "2026-06-14T04:00:00.000Z",
+    "State": "CA",
+    "City": "Salinas",
+    "Country": "United States",
+    "Type": "Road Course",
+    "Surface": "Dirt",
+    "Recap": "https://docs.google.com/document/d/1uLVOcEU9jEj0LozXB5XwKtdrtYp0lX30kDod0prS2U0/edit?usp=sharing",
+    "Status": "Temporary",
+    "Setting": "Outdoor",
+    "Place": "Arena",
+    "Character": "Minimal Character",
+    "Latitude": "36.6941081127316",
+    "Longitude": "-121.649916316437",
+    "ID": "Salinas_Sports_Complex",
+    "Races": "1"
   }
-}`
+}
+`
 
 //track number -> TrackRecord
 export const getTrackDataJson = (): Map<number, TrackRecord> => {
