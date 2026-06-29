@@ -385,6 +385,7 @@ export const FlipsData: TrackVideo[] = [
   { num: 636, track: "Action Track USA", url: "https://youtu.be/p1gN7szpq-s" },
   { num: 637, track: "Action Track USA", url: "https://youtu.be/bv5b23yu5sU" },
   { num: 639, track: "Bridgeport Motorsports Park", url: "https://youtu.be/v8xPj60KQr4" },
+  { num: 640, track: "Big Diamond Speedway", url: "https://youtu.be/_pZo5bkgoTk" },
   { num: 644, track: "Port Royal Speedway", url: "https://youtu.be/Hai815kEVpM" },
   { num: 645, track: "Port Royal Speedway", url: "https://youtu.be/YD2dElakjA8" },
   { num: 646, track: "Port Royal Speedway", url: "https://youtu.be/YD2dElakjA8" },
@@ -460,4 +461,5 @@ export const FlipsData: TrackVideo[] = [
   { num: 740, track: "Cure Insurance Arena", url: "https://youtu.be/ybQHrSyHtlU" },
   { num: 741, track: "Cure Insurance Arena", url: "https://youtube.com/shorts/PeEB_dwg-Qk" },
   { num: 742, track: "Thompson Speedway Motorsports Park", url: "https://youtu.be/qRMEP14sKqM" },
+  { num: 744, track: "Merced Speedway", url: "https://youtube.com/shorts/IZBMFePOY6I" },
 ];
