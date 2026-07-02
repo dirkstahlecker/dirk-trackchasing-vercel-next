@@ -4977,6 +4977,44 @@ const trackDataString = `
     "Longitude": "-121.649916316437",
     "ID": "Salinas_Sports_Complex",
     "Races": "1"
+  },
+  "284": {
+    "Track": "Qualcomm Circuit at Naval Base Coronado",
+    "Date": "2026-06-21T04:00:00.000Z",
+    "State": "CA",
+    "City": "Coronado",
+    "Country": "United States",
+    "Type": "Road Course",
+    "Surface": "Asphalt",
+    "Length": "3.4",
+    "Recap": "https://docs.google.com/document/d/1-XWaLjbzkWOo9L99vMKvXA1ndKN5qQDUQ3R_6uvnlBs/edit?usp=sharing",
+    "Status": "Temporary",
+    "Setting": "Outdoor",
+    "Place": "Street",
+    "Character": "Decent Character",
+    "Latitude": "32.7047396400921",
+    "Longitude": "-117.197916580244",
+    "ID": "Qualcomm_Circuit_at_Naval_Base_Coronado",
+    "Races": "1"
+  },
+  "285": {
+    "Track": "Sonoma Raceway",
+    "Date": "2026-06-28T04:00:00.000Z",
+    "State": "CA",
+    "City": "Sonoma",
+    "Country": "United States",
+    "Type": "Road Course",
+    "Surface": "Asphalt",
+    "Length": "1.99",
+    "Recap": "https://docs.google.com/document/d/1rPKDU4L2x8COg5-dYYy5qWJnNi7C082El8mMccxRBr4/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "A Lot of Character",
+    "Latitude": "38.1628777029225",
+    "Longitude": "-122.457515411529",
+    "ID": "Sonoma_Raceway",
+    "Races": "1"
   }
 }
 `
