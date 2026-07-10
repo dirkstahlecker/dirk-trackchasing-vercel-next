@@ -5015,6 +5015,25 @@ const trackDataString = `
     "Longitude": "-122.457515411529",
     "ID": "Sonoma_Raceway",
     "Races": "1"
+  },
+  "286": {
+    "Track": "Chicagoland Speedway",
+    "Date": "2026-07-05T04:00:00.000Z",
+    "State": "IL",
+    "City": "Joliet",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Asphalt",
+    "Length": "1.5",
+    "Recap": "https://docs.google.com/document/d/17ECWsnSr2l9QmI-HMJ8aVG-hMkGDHBsYgoRvKEgbdHs/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "Decent Character",
+    "Latitude": "41.4743472339334",
+    "Longitude": "-88.0574512111845",
+    "ID": "Chicagoland_Speedway",
+    "Races": "1"
   }
 }
 `
