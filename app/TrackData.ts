@@ -29,8 +29,7 @@ export class TrackRecord {
 //This needs to be updated with each new track added
 //Copied directly from the Track Order sheet using the export to json extension
 //Dates are reformatted via a print function
-const trackDataString = `
-{
+const trackDataString = `{
   "1": {
     "Track": "The Dirt Track at Las Vegas Motor Speedway",
     "Date": "2000-03-03T05:00:00.000Z",
@@ -1897,6 +1896,7 @@ const trackDataString = `
     "Country": "United States",
     "Type": "Figure 8",
     "Surface": "Asphalt",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -1949,6 +1949,7 @@ const trackDataString = `
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.33",
+    "Recap": "https://docs.google.com/document/d/1Hd1c0_-HhOqjJU_svPDoThs1xK8b8Nw968Q_sjBX6jI/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -1966,6 +1967,7 @@ const trackDataString = `
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.175",
+    "Recap": "https://docs.google.com/document/d/10nFFmbhJfu-hDs3rkk21L2qZUU5crY8VMLrpRrGeMhg/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -4771,7 +4773,7 @@ const trackDataString = `
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Character": "A Lot of Character",
+    "Character": "Oozing with Character",
     "Latitude": "39.5080866513547",
     "Longitude": "-88.270485583153",
     "ID": "Cole's_County_Speedway",
@@ -4898,7 +4900,7 @@ const trackDataString = `
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Character": "Decent Character",
+    "Character": "A Lot of Character",
     "Latitude": "54.1675597548992",
     "Longitude": "-0.317501117372375",
     "ID": "Scarborough_Autograss_Club",
@@ -5035,8 +5037,7 @@ const trackDataString = `
     "ID": "Chicagoland_Speedway",
     "Races": "1"
   }
-}
-`
+}` 
 
 //track number -> TrackRecord
 export const getTrackDataJson = (): Map<number, TrackRecord> => {
