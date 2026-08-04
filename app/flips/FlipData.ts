@@ -461,5 +461,9 @@ export const FlipsData: TrackVideo[] = [
   { num: 740, track: "Cure Insurance Arena", url: "https://youtu.be/ybQHrSyHtlU" },
   { num: 741, track: "Cure Insurance Arena", url: "https://youtube.com/shorts/PeEB_dwg-Qk" },
   { num: 742, track: "Thompson Speedway Motorsports Park", url: "https://youtu.be/qRMEP14sKqM" },
-  { num: 744, track: "Merced Speedway", url: "https://youtube.com/shorts/IZBMFePOY6I" },
+  { num: 744, track: "Merced Speedway", url: "https://youtu.be/Z39EA3P-CTY" },
+  { num: 745, track: "Ohsweken Speedway", url: "https://youtu.be/9kZZ16TjVv8" },
+  { num: 761, track: "Wythe Raceway", url: "https://youtube.com/shorts/8x7KPGl4JIQ", notes: ["Hot Laps"] },
+  { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
+  
 ];
