@@ -434,6 +434,7 @@ export const FlipsData: TrackVideo[] = [
   { num: 706, track: "Ventura Raceway", url: "https://youtu.be/xPfIcmJ7WRw" },
   { num: 707, track: "Ventura Raceway", url: "https://youtu.be/xS1G_ZrsjJY" },
   { num: 708, track: "Ventura Raceway", url: "https://youtu.be/f2vbh_kaCV4" },
+  { num: 710, track: "Ventura Raceway", url: "https://youtu.be/1dBa1AqNxRA", notes: ["Practice"]},
   { num: 711, track: "Ventura Raceway", url: "https://youtu.be/eCM4J2wLnpE" },
   { num: 712, track: "Ventura Raceway", url: "https://youtu.be/RivD7pvrVXs" },
   { num: 713, track: "Ventura Raceway", url: "https://youtube.com/shorts/DfaZFRBUPwc" },
@@ -463,7 +464,12 @@ export const FlipsData: TrackVideo[] = [
   { num: 742, track: "Thompson Speedway Motorsports Park", url: "https://youtu.be/qRMEP14sKqM" },
   { num: 744, track: "Merced Speedway", url: "https://youtu.be/Z39EA3P-CTY" },
   { num: 745, track: "Ohsweken Speedway", url: "https://youtu.be/9kZZ16TjVv8" },
+  { num: 754, track: "Paragon Speedway", url: "https://youtu.be/w3OCMoVWY04", notes: ["Qualifying"]},
+  { num: 755, track: "Paragon Speedway", url: "https://youtu.be/TqkJgQ_Hxyc", notes: ["Qualifying"]},
   { num: 761, track: "Wythe Raceway", url: "https://youtube.com/shorts/8x7KPGl4JIQ", notes: ["Hot Laps"] },
   { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
+  { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
+  { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
+  
   
 ];
