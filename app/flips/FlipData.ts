@@ -464,12 +464,16 @@ export const FlipsData: TrackVideo[] = [
   { num: 742, track: "Thompson Speedway Motorsports Park", url: "https://youtu.be/qRMEP14sKqM" },
   { num: 744, track: "Merced Speedway", url: "https://youtu.be/Z39EA3P-CTY" },
   { num: 745, track: "Ohsweken Speedway", url: "https://youtu.be/9kZZ16TjVv8" },
+  { num: 746, track: "Lincoln Park Speedway", url: "https://youtu.be/j2hVlLVGYE0" },
+  { num: 747, track: "Lincoln Park Speedway", url: "https://youtu.be/MDRV1gzccqY" },
+  { num: 748, track: "Kokomo Speedway", url: "https://youtu.be/CyCtnSTxZj8" },
+  { num: 752, track: "Circle City Raceway", url: "https://youtu.be/d8g_WAD8vqQ" },
   { num: 754, track: "Paragon Speedway", url: "https://youtu.be/w3OCMoVWY04", notes: ["Qualifying"]},
   { num: 755, track: "Paragon Speedway", url: "https://youtu.be/TqkJgQ_Hxyc", notes: ["Qualifying"]},
   { num: 761, track: "Wythe Raceway", url: "https://youtube.com/shorts/8x7KPGl4JIQ", notes: ["Hot Laps"] },
   { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
-  { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
-  { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
-  
+  { num: 764, track: "RPM Speedway", url: "https://youtu.be/Cp7FIAUEDU8" },
+  { num: 765, track: "RPM Speedway", url: "https://youtu.be/YN9fOV-Tgno" },
+
   
 ];
