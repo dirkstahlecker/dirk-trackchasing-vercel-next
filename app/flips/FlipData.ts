@@ -470,6 +470,9 @@ export const FlipsData: TrackVideo[] = [
   { num: 752, track: "Circle City Raceway", url: "https://youtu.be/d8g_WAD8vqQ" },
   { num: 754, track: "Paragon Speedway", url: "https://youtu.be/w3OCMoVWY04", notes: ["Qualifying"]},
   { num: 755, track: "Paragon Speedway", url: "https://youtu.be/TqkJgQ_Hxyc", notes: ["Qualifying"]},
+  { num: 756, track: "Paragon Speedway", url: "https://youtu.be/6NC5Ro1VRSU" },
+  { num: 757, track: "Paragon Speedway", url: "https://youtu.be/Ts_HTi9YoFA" },
+  { num: 758, track: "Paragon Speedway", url: "https://youtu.be/2XOQDaVBlX0" },
   { num: 761, track: "Wythe Raceway", url: "https://youtube.com/shorts/8x7KPGl4JIQ", notes: ["Hot Laps"] },
   { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
   { num: 764, track: "RPM Speedway", url: "https://youtu.be/Cp7FIAUEDU8" },
@@ -478,6 +481,8 @@ export const FlipsData: TrackVideo[] = [
   { num: 770, track: "NHMS Flat Track", url: "https://youtu.be/jJ7koqJmkW0" },
   { num: 771, track: "NHMS Flat Track", url: "https://youtu.be/ocy3Z1eTEQU" },
 
+
+  
   
   
 ];
