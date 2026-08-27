@@ -467,6 +467,8 @@ export const FlipsData: TrackVideo[] = [
   { num: 746, track: "Lincoln Park Speedway", url: "https://youtu.be/j2hVlLVGYE0" },
   { num: 747, track: "Lincoln Park Speedway", url: "https://youtu.be/MDRV1gzccqY" },
   { num: 748, track: "Kokomo Speedway", url: "https://youtu.be/CyCtnSTxZj8" },
+  { num: 749, track: "Lawrenceburg Speedway", url: "https://youtu.be/mfHSArnA84g", notes: ["Hot Laps"]},
+  { num: 750, track: "Lawrenceburg Speedway", url: "https://youtu.be/qmH6Bt8tJv0", notes: ["Qualifying"] },
   { num: 752, track: "Circle City Raceway", url: "https://youtu.be/d8g_WAD8vqQ" },
   { num: 754, track: "Paragon Speedway", url: "https://youtu.be/w3OCMoVWY04", notes: ["Qualifying"]},
   { num: 755, track: "Paragon Speedway", url: "https://youtu.be/TqkJgQ_Hxyc", notes: ["Qualifying"]},
@@ -480,9 +482,7 @@ export const FlipsData: TrackVideo[] = [
   { num: 769, track: "NHMS Flat Track", url: "https://youtu.be/5dd10Ceosko" },
   { num: 770, track: "NHMS Flat Track", url: "https://youtu.be/jJ7koqJmkW0" },
   { num: 771, track: "NHMS Flat Track", url: "https://youtu.be/ocy3Z1eTEQU" },
+  
+  
 
-
-  
-  
-  
 ];

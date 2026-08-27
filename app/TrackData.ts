@@ -5123,7 +5123,6 @@ const trackDataString = `{
     "Country": "Canada",
     "Type": "Oval",
     "Surface": "Dirt",
-    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
