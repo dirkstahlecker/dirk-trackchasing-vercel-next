@@ -479,10 +479,10 @@ export const FlipsData: TrackVideo[] = [
   { num: 762, track: "Wythe Raceway", url: "https://youtu.be/QPxpDoxM8bs" },
   { num: 764, track: "RPM Speedway", url: "https://youtu.be/Cp7FIAUEDU8" },
   { num: 765, track: "RPM Speedway", url: "https://youtu.be/YN9fOV-Tgno" },
+  { num: 766, track: "RPM Speedway", url: "https://youtu.be/o427tOt93JE" },
   { num: 769, track: "NHMS Flat Track", url: "https://youtu.be/5dd10Ceosko" },
   { num: 770, track: "NHMS Flat Track", url: "https://youtu.be/jJ7koqJmkW0" },
   { num: 771, track: "NHMS Flat Track", url: "https://youtu.be/ocy3Z1eTEQU" },
-  
   
 
 ];
