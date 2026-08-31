@@ -396,6 +396,7 @@ export const FlipsData: TrackVideo[] = [
   { num: 651, track: "Action Track USA", url: "https://youtu.be/6X6wtoV3I9Y" },
   { num: 652, track: "Action Track USA", url: "https://youtu.be/6X6wtoV3I9Y" },
   { num: 653, track: "Action Track USA", url: "https://youtu.be/kcpXDx0XEYc" },
+  { num: 654, track: "Fulton Speedway", url: "https://youtu.be/VHjaELZTUbQ" },
   { num: 655, track: "Millstream Speedway", url: "https://youtu.be/CuLJAdXTW9c" },
   { num: 657, track: "IMS Dirt Track", url: "https://youtu.be/mTswLpNzHuU" },
   { num: 658, track: "Lincoln Park Speedway", url: "https://youtu.be/H7Ee9ZYQMFc" },
@@ -483,6 +484,5 @@ export const FlipsData: TrackVideo[] = [
   { num: 769, track: "NHMS Flat Track", url: "https://youtu.be/5dd10Ceosko" },
   { num: 770, track: "NHMS Flat Track", url: "https://youtu.be/jJ7koqJmkW0" },
   { num: 771, track: "NHMS Flat Track", url: "https://youtu.be/ocy3Z1eTEQU" },
-  
 
 ];
