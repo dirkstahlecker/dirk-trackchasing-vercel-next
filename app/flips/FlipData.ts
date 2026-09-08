@@ -488,5 +488,8 @@ export const FlipsData: TrackVideo[] = [
   { num: 773, track: "Albany-Saratoga Speedway", url: "https://youtu.be/b7-a6AvGecc" },
   { num: 774, track: "Albany-Saratoga Speedway", url: "https://youtu.be/3ZHSNIb81DQ" },
   { num: 775, track: "Albany-Saratoga Speedway", url: "https://youtu.be/3ZHSNIb81DQ" },
+  { num: 776, track: "Albany-Saratoga Speedway", url: "https://youtu.be/cbVtMYkoPRw" },
+  { num: 776, track: "Albany-Saratoga Speedway", url: "https://youtu.be/jr2BGFGtBLY" },
+
 
 ];

@@ -5167,7 +5167,26 @@ const trackDataString = `{
     "Longitude": "-77.0187031462122",
     "ID": "Streets_of_Washington,_DC",
     "Races": "1"
-  }
+  },
+  "294": {
+    "Track": "Ricky Craven Speedway",
+    "Date": "2026-09-05T04:00:00.000Z",
+    "State": "ME",
+    "City": "Bangor",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Asphalt",
+    "Length": "0.33",
+    "Recap": "https://docs.google.com/document/d/15WTOXX4GOU6uqx0hnVLic-4QAiMMpPJ2FiLf0luy0og/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "Decent Character",
+    "Latitude": "44.7785759794285",
+    "Longitude": "-68.8438189754951",
+    "ID": "Ricky_Craven_Speedway",
+    "Races": "1"
+  },
 }` 
 
 //track number -> TrackRecord
