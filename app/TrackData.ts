@@ -5186,7 +5186,7 @@ const trackDataString = `{
     "Longitude": "-68.8438189754951",
     "ID": "Ricky_Craven_Speedway",
     "Races": "1"
-  },
+  }
 }` 
 
 //track number -> TrackRecord
