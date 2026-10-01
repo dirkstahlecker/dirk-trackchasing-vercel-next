@@ -61,3 +61,19 @@ a {
   background-color: #FFF;
   color: #000;
 }
+
+.flips-table {
+  margin: 0 auto;
+}
+
+.num-cell {
+  white-space: nowrap;
+  text-align: left;
+}
+
+.primary-num {
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+}
+

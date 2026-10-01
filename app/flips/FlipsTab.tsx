@@ -7,7 +7,7 @@ import { FlipsData, TrackVideo } from "./FlipData"
 export default function FlipsTab() {
   return (
     <div>
-      <table style={{ margin: "0 auto", textAlign: "center" }}>
+      <table className="flips-table">
         <thead>
           <tr>
             <th>Num</th>
@@ -18,7 +18,12 @@ export default function FlipsTab() {
         <tbody>
           {FlipsData.map((value: TrackVideo) => (
             <tr key={value.url + value.num}>
-              <td>{value.num}</td>
+              <td className="num-cell">
+                <span className="primary-num">{value.num}</span>
+                {value.additionalNum?.map((num) => (
+                  <span key={num}>, {num}</span>
+                ))}
+              </td>
               <td>
                 <a href={value.url} target="_blank" rel="noopener noreferrer">
                   {value.track}

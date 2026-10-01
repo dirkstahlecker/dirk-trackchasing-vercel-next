@@ -517,7 +517,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Recap": "https://docs.google.com/document/d/1HOBXv1lq0_khdflVk5NaewvU2iBBAN92vRj1dy_MT4o/edit?usp=sharing",
+    "Recap": "https://docs.google.com/document/d/1HOBXv1lq0_khdflVk5NaewvU2iBBAN92vRj1dy_MT4o/edit?usp=sharing",to de
     "Latitude": "42.491995",
     "Longitude": "-73.488908",
     "ID": "Lebanon_Valley_Speedway",
