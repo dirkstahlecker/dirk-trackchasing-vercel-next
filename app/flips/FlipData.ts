@@ -234,6 +234,7 @@ export const FlipsData: TrackVideo[] = [
   { num: 431, track: "Chili Bowl", url: "https://youtu.be/69E6m9pyAw8" },
   { num: 432, track: "Chili Bowl", url: "https://youtu.be/4Wy3vaDJuGc" },
   { num: 433, track: "Chili Bowl", url: "https://youtu.be/lYuG5vJ9Oy0" },
+  { num: 434, track: "Chili Bowl", url: "https://youtu.be/VopC_W-ywms" },
   { num: 440, track: "Hendry County Speedway", url: "https://youtu.be/gjXh_1jn-Mk" },
   { num: 441, track: "Hendry County Speedway", url: "https://youtu.be/F78vhGVauvg" },
   { num: 442, track: "East Bay Raceway Park", url: "https://youtu.be/RLHHb-SfU1I" },
