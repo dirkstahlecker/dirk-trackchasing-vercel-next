@@ -1107,6 +1107,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Recap": "https://docs.google.com/document/d/1UDrtFB_jA-zfUyTHOld_aEEbNgZcilv1IXOssnDfQeM/edit?usp=sharing",
     "Latitude": "40.318608",
     "Longitude": "-84.633776",
     "ID": "Eldora_Speedway",
