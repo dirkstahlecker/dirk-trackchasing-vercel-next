@@ -267,7 +267,6 @@ export const FlipsData: TrackVideo[] = [
   { num: 484, track: "Action Track USA", url: "https://youtu.be/pTmc6Hdd_Mg" },
   { num: 485, track: "Action Track USA", url: "https://youtu.be/I6WAbBff5Vw" },
   { num: 486, track: "Action Track USA", url: "https://youtu.be/uH7S28Vya44" },
-  { num: 486, track: "Action Track USA", url: "https://youtu.be/_jgSNnqIDPE" },
   { num: 487, track: "Action Track USA", url: "https://youtu.be/_jgSNnqIDPE" },
   { num: 488, track: "Path Valley Speedway Park", url: "https://youtu.be/UFaZP-OEo48" },
   { num: 489, track: "Path Valley Speedway Park", url: "https://youtu.be/oWzRdhi2_w4" },
