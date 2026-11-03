@@ -1540,6 +1540,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Recap": "https://docs.google.com/document/d/1OCQzDd0H64DxxBcoAvQdUx0pReIhwUxBPzPNkMR1Lv4/edit?usp=sharing",
     "Latitude": "39.819307",
     "Longitude": "-75.317575",
     "ID": "Bridgeport_Motorsports_Park",
