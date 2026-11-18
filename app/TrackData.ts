@@ -5236,6 +5236,8 @@ const trackDataString = `{
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Character": "Decent Character",
+    "Latitude": "34.89298187",
+    "Longitude": "-114.5529849",
     "ID": "Mohave_Valley_Raceway",
     "Races": "1"
   },
@@ -5253,6 +5255,8 @@ const trackDataString = `{
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Character": "Minimal Character",
+    "Latitude": "33.62151253",
+    "Longitude": "-114.5568786",
     "ID": "Blythe_Speedway",
     "Races": "1"
   },
@@ -5270,6 +5274,8 @@ const trackDataString = `{
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Character": "A Lot of Character",
+    "Latitude": "34.44649502",
+    "Longitude": "-114.2495705",
     "ID": "Havasu_95_Speedway",
     "Races": "1"
   }
