@@ -39,6 +39,7 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.5",
+    "Recap": "https://docs.google.com/document/d/1mzVDR30wln1Oxkiv0FOP7hO6i9sZNzhA4jyAkjeg4RY/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -147,7 +148,8 @@ const trackDataString = `{
     "Latitude": "40.71917",
     "Longitude": "-112.046914",
     "ID": "Rocky_Mountain_Raceways",
-    "Races": "7"
+    "Races": "7",
+    "Demolished": "x"
   },
   "8": {
     "Track": "Rocky Mountain Raceways (Asphalt Figure 8)",
@@ -162,7 +164,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
     "ID": "Rocky_Mountain_Raceways_(Asphalt_Figure_8)",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "9": {
     "Track": "Atomic Motor Raceway",
@@ -291,7 +294,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
     "ID": "Rocky_Mountain_Raceways_(Inner_Asphalt_Oval)",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "17": {
     "Track": "Rocky Mountain Raceways (Asphalt Road Course)",
@@ -306,7 +310,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Rocky Mountain Raceways",
     "ID": "Rocky_Mountain_Raceways_(Asphalt_Road_Course)",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "18": {
     "Track": "Seekonk Speedway",
@@ -323,7 +328,7 @@ const trackDataString = `{
     "Latitude": "41.784545",
     "Longitude": "-71.302063",
     "ID": "Seekonk_Speedway",
-    "Races": "55"
+    "Races": "56"
   },
   "19": {
     "Track": "Pocatello Speedway (Inner Dirt Oval)",
@@ -514,10 +519,11 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.5",
+    "Recap": "https://docs.google.com/document/d/1HOBXv1lq0_khdflVk5NaewvU2iBBAN92vRj1dy_MT4o/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Recap": "https://docs.google.com/document/d/1HOBXv1lq0_khdflVk5NaewvU2iBBAN92vRj1dy_MT4o/edit?usp=sharing",
+    "Character": "A Lot of Character",
     "Latitude": "42.491995",
     "Longitude": "-73.488908",
     "ID": "Lebanon_Valley_Speedway",
@@ -538,7 +544,8 @@ const trackDataString = `{
     "Latitude": "43.610212",
     "Longitude": "-70.380652",
     "ID": "Beech_Ridge_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "32": {
     "Track": "Wall Stadium Speedway",
@@ -767,6 +774,7 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.125",
+    "Recap": "https://docs.google.com/document/d/1_4XSWvpIcxl1TjDeFrjQC9wi6_jkN9Cd8V7hICyjn1o/edit?usp=sharing",
     "Status": "Temporary",
     "Setting": "Indoor",
     "Place": "Arena",
@@ -907,6 +915,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Oozing with Character",
     "Latitude": "44.179899",
     "Longitude": "-72.487877",
     "ID": "Thunder_Road_International_Speedbowl",
@@ -921,11 +930,11 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/1gL5L2RZHf74zhp3rNM_Sl9NxjOdIqJ3lJwYpJEjm_-w/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
     "Character": "A Lot of Character",
-    "Recap": "https://docs.google.com/document/d/1gL5L2RZHf74zhp3rNM_Sl9NxjOdIqJ3lJwYpJEjm_-w/edit?usp=sharing",
     "Latitude": "43.34798",
     "Longitude": "-71.463928",
     "ID": "NHMS_Flat_Track",
@@ -1105,10 +1114,10 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.5",
+    "Recap": "https://docs.google.com/document/d/1UDrtFB_jA-zfUyTHOld_aEEbNgZcilv1IXOssnDfQeM/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Recap": "https://docs.google.com/document/d/1UDrtFB_jA-zfUyTHOld_aEEbNgZcilv1IXOssnDfQeM/edit?usp=sharing",
     "Latitude": "40.318608",
     "Longitude": "-84.633776",
     "ID": "Eldora_Speedway",
@@ -1401,13 +1410,16 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/1p8AqAIpZBe8pR0k_0VTzKsXDtQU8JUZxwibk5aBUOuQ/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "43.818725",
     "Longitude": "-71.8937",
     "ID": "Legion_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Other Names": "Rumtown Speedway"
   },
   "83": {
     "Track": "Lucas Oil Raceway",
@@ -1425,7 +1437,8 @@ const trackDataString = `{
     "Latitude": "39.812582",
     "Longitude": "-86.340586",
     "ID": "Lucas_Oil_Raceway",
-    "Races": "1"
+    "Races": "1",
+    "Other Names": "IRP, ORP"
   },
   "84": {
     "Track": "Lucas Oil Speedway Off Road Course",
@@ -1494,7 +1507,8 @@ const trackDataString = `{
     "Latitude": "38.651483",
     "Longitude": "-90.135503",
     "ID": "Gateway_Motorsports_Park",
-    "Races": "1"
+    "Races": "1",
+    "Other Names": "World Wide Technologies Raceway"
   },
   "88": {
     "Track": "Macon Speedway",
@@ -1538,10 +1552,10 @@ const trackDataString = `{
     "Type": "Oval",
     "Surface": "Dirt",
     "Length": "0.4",
+    "Recap": "https://docs.google.com/document/d/1OCQzDd0H64DxxBcoAvQdUx0pReIhwUxBPzPNkMR1Lv4/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
-    "Recap": "https://docs.google.com/document/d/1OCQzDd0H64DxxBcoAvQdUx0pReIhwUxBPzPNkMR1Lv4/edit?usp=sharing",
     "Latitude": "39.819307",
     "Longitude": "-75.317575",
     "ID": "Bridgeport_Motorsports_Park",
@@ -2085,7 +2099,8 @@ const trackDataString = `{
     "Latitude": "33.3115230490482",
     "Longitude": "-111.565865280717",
     "ID": "Arizona_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "122": {
     "Track": "Wild Horse Pass Motorsports Park [Short Course]",
@@ -2217,7 +2232,8 @@ const trackDataString = `{
     "Latitude": "34.1095399082674",
     "Longitude": "-117.987927624045",
     "ID": "Irwindale_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "130": {
     "Track": "Los Angeles Memorial Coliseum",
@@ -2358,7 +2374,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Bakersfield Speedway",
     "ID": "Bakersfield_Speedway_[Inner_Dirt_Oval]",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "138": {
     "Track": "Kern County Raceway Park",
@@ -2376,7 +2393,8 @@ const trackDataString = `{
     "Latitude": "35.2927692438009",
     "Longitude": "-119.256255030109",
     "ID": "Kern_County_Raceway_Park",
-    "Races": "1"
+    "Races": "1",
+    "Other Names": "Kevin Harvick's Kern Raceway"
   },
   "139": {
     "Track": "Cottage Grove Speedway",
@@ -2733,7 +2751,8 @@ const trackDataString = `{
     "Latitude": "34.640522874382",
     "Longitude": "-92.4398092135323",
     "ID": "I-30_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "159": {
     "Track": "Tri-County Race Track",
@@ -2803,7 +2822,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Irwindale Speedway",
     "ID": "Irwindale_Speedway_[Inner_Asphalt_Oval]",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "163": {
     "Track": "Irwindale Speedway [Asphalt Figure-8]",
@@ -2818,7 +2838,8 @@ const trackDataString = `{
     "Place": "Racetrack",
     "Parent Track": "Irwindale Speedway",
     "ID": "Irwindale_Speedway_[Asphalt_Figure-8]",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "164": {
     "Track": "Adobe Mountain Speedway",
@@ -2856,7 +2877,8 @@ const trackDataString = `{
     "Latitude": "35.4514246435163",
     "Longitude": "-119.028834815099",
     "ID": "Bakersfield_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "166": {
     "Track": "Southern Illinois Center",
@@ -2941,6 +2963,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "29.2157045217781",
     "Longitude": "-81.3442006912857",
     "ID": "Volusia_Speedway_Park",
@@ -3072,7 +3095,8 @@ const trackDataString = `{
     "Latitude": "27.8840433324438",
     "Longitude": "-82.3882248101782",
     "ID": "East_Bay_Raceway_Park",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "178": {
     "Track": "Citrus County Speedway",
@@ -3143,7 +3167,8 @@ const trackDataString = `{
     "Latitude": "34.0874873510594",
     "Longitude": "-117.500664103446",
     "ID": "Auto_Club_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "California Speedway"
   },
   "182": {
     "Track": "Accord Speedway",
@@ -3273,7 +3298,8 @@ const trackDataString = `{
     "Latitude": "42.3636111699981",
     "Longitude": "-89.0176889545391",
     "ID": "Rockford_Speedway",
-    "Races": "1"
+    "Races": "1",
+    "Demolished": "x"
   },
   "189": {
     "Track": "What Cheer Raceway [Dirt Oval]",
@@ -3704,6 +3730,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Oozing with Character",
     "Latitude": "38.7261617914795",
     "Longitude": "-120.832274490763",
     "ID": "Placerville_Speedway",
@@ -3722,6 +3749,7 @@ const trackDataString = `{
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
+    "Character": "Decent Character",
     "Latitude": "37.2911134785598",
     "Longitude": "-120.482490466735",
     "ID": "Merced_Speedway",
@@ -4493,6 +4521,7 @@ const trackDataString = `{
     "Type": "Road Course",
     "Surface": "Asphalt",
     "Length": "1.5",
+    "Recap": "https://docs.google.com/document/d/1KT_mCsUwxarAYUUUEurrlK4oHh9wRMmZ24Fmit6v-UU/edit?usp=sharing",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -5127,6 +5156,7 @@ const trackDataString = `{
     "Country": "Canada",
     "Type": "Oval",
     "Surface": "Dirt",
+    "Recap": "-",
     "Status": "Permanent",
     "Setting": "Outdoor",
     "Place": "Racetrack",
@@ -5189,6 +5219,58 @@ const trackDataString = `{
     "Latitude": "44.7785759794285",
     "Longitude": "-68.8438189754951",
     "ID": "Ricky_Craven_Speedway",
+    "Races": "1",
+    "Other Names": "Speedway 95"
+  },
+  "295": {
+    "Track": "Mohave Valley Raceway",
+    "Date": "2026-11-13T05:00:00.000Z",
+    "State": "AZ",
+    "City": "Mohave Valley",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Dirt",
+    "Length": "0.33",
+    "Recap": "https://docs.google.com/document/d/1VALRzsgNLFVumdtMXOhn0c27n-taBFkS3rMaOS6JMXM/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "Decent Character",
+    "ID": "Mohave_Valley_Raceway",
+    "Races": "1"
+  },
+  "296": {
+    "Track": "Blythe Speedway",
+    "Date": "2026-11-14T05:00:00.000Z",
+    "State": "CA",
+    "City": "Blythe",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Asphalt",
+    "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/1lTDKLTmIDQ8jpPaC_Oyk3yubk-3DStDefTC1bAfRHhI/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "Minimal Character",
+    "ID": "Blythe_Speedway",
+    "Races": "1"
+  },
+  "297": {
+    "Track": "Havasu 95 Speedway",
+    "Date": "2026-11-14T05:00:00.000Z",
+    "State": "AZ",
+    "City": "Lake Havasu",
+    "Country": "United States",
+    "Type": "Oval",
+    "Surface": "Asphalt",
+    "Length": "0.25",
+    "Recap": "https://docs.google.com/document/d/14OPUng2KmDcLHfeGFQiHOrbiQYxX3JyszO0_VveuZdk/edit?usp=sharing",
+    "Status": "Permanent",
+    "Setting": "Outdoor",
+    "Place": "Racetrack",
+    "Character": "A Lot of Character",
+    "ID": "Havasu_95_Speedway",
     "Races": "1"
   }
 }` 
